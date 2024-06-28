@@ -7,10 +7,10 @@ import {
   Team,
   Testimonials,
   Therapies,
-  Footer
+  Footer,
 } from "./Sections";
 
-import NavBar from './Components/NavBar'
+import NavBar from "./Components/NavBar";
 
 const App = () => {
   return (
