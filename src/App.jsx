@@ -15,9 +15,6 @@ import NavBar from "./Components/NavBar";
 const App = () => {
   return (
     <>
-    <h1 className="">Beep Boop</h1>
-    <h1 className="">Beep Boop</h1>
-    <h1 className="">Beep Boop</h1>
       <NavBar />
       <Hero />
       <About />
