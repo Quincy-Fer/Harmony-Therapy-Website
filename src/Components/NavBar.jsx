@@ -21,13 +21,13 @@ const NavBar = () => {
         {NAV_LINKS.map((link) => (
           <li
             key={link.key}
-            className="font-quicksand font-medium text-lg text-zinc-600 hover:font-bold transition-all"
+            className="font-quicksand font-medium text-base text-zinc-600 hover:font-bold transition-all"
           >
             <a href={link.href}>{link.label}</a>
           </li>
         ))}
       </ul>
-      <Button />
+      <Button label="Book Consultation" />
     </nav>
   );
 };
