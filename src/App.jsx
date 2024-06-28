@@ -12,13 +12,9 @@ import {
 
 import NavBar from "./Components/NavBar";
 
-import { testimonialIndividualMan1 } from "./assets/images";
-
-
 const App = () => {
   return (
     <>
-     <img src={testimonialIndividualMan1} alt="" />
       <NavBar />
       <Hero />
       <About />
