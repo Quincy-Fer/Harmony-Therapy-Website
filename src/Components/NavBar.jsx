@@ -1,5 +1,6 @@
 import logo from "../assets/images/logo-no-bg.png";
 import { NAV_LINKS } from "../constants";
+import Button from "./Button";
 
 const NavBar = () => {
   return (
@@ -11,7 +12,7 @@ const NavBar = () => {
         <img
           src={logo}
           alt="logo"
-          width={170}
+          width={200}
           height={100}
           className="rounded-sm"
         />
@@ -26,6 +27,7 @@ const NavBar = () => {
           </li>
         ))}
       </ul>
+      <Button />
     </nav>
   );
 };
