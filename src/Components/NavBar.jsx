@@ -12,7 +12,7 @@ const NavBar = () => {
         <img
           src={logo}
           alt="logo"
-          width={200}
+          width={150}
           height={100}
           className="rounded-sm"
         />
@@ -27,7 +27,7 @@ const NavBar = () => {
           </li>
         ))}
       </ul>
-      <Button label="Book Consultation" />
+      <Button label="Consultation" />
     </nav>
   );
 };
