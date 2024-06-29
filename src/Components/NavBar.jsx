@@ -5,7 +5,7 @@ import Button from "./Button";
 const NavBar = () => {
   return (
     <nav
-      className="flex items-center justify-between px-10  z-30 py-2  w-full mx-auto"
+      className="flex items-center justify-between px-10  z-30 py-2  max-w-[1440px] mx-auto"
       id="home"
     >
       <a href="/">
