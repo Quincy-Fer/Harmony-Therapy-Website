@@ -2,16 +2,19 @@ import { about } from "../assets/images";
 
 const About = () => {
   return (
-    <section className="max-w-[1440px] py-24 px-12">
+    <section className="max-w-[1440px] py-24 px-12 mx-auto">
       <div className="flex  gap-20">
-        <div className="flex-1">
+        <div className="flex-1 ">
           <h1
-            className="p-0   text-stone-800 text-[72px] max-w-[660px] font-bold font-quicksand
+            className="p-0   text-stone-700 text-[72px] max-w-[660px] font-bold font-quicksand
          leading-tight tracking-tight "
           >
             Our Mission and Values
           </h1>
-          <p className="font-nunito max-w-[600px] text-base text-gray-500 tracking-wider leading-loose mt-10">
+          <p
+            className="font-nunito max-w-[600px] text-base text-gray-500 tracking-wider leading-loose 
+          mt-10 "
+          >
             At Harmony, we are dedicated to providing compassionate,
             comprehensive mental health care. Our team of experienced
             professionals offers a wide range of services tailored to meet the
@@ -23,7 +26,7 @@ const About = () => {
             psychiatrists work collaboratively to develop treatment plans that
             address the root causes of your concerns, not just the symptoms. We
             strive to create a safe, welcoming environment where you can feel
-            comfortable sharing your thoughts and feelings. At [Clinic Name], we
+            comfortable sharing your thoughts and feelings. At Harmony, we
             understand that seeking help is a courageous step. That's why we
             offer flexible scheduling options, including virtual consultations,
             to make accessing care as convenient as possible. Our goal is to
@@ -32,7 +35,11 @@ const About = () => {
           </p>
         </div>
         <div className="flex-1">
-          <img src={about} alt="" />
+          <img
+            src={about}
+            alt="woman consulting a couple"
+            className="rounded-3xl  h-[700px] w-[800px] mt-4 object-cover "
+          />
         </div>
       </div>
     </section>
