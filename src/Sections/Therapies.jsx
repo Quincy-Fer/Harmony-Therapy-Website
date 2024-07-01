@@ -21,22 +21,6 @@ const Therapies = () => {
             health journey:
           </p>
         </div>
-        <div className="flex gap-8 mt-8">
-          <div className="flex h-20 w-20  bg-white rounded-full border-2  hover:bg-green-600 transition-all  ">
-            <img
-              src={chevronLeft}
-              alt="button left scroll"
-              className=" object-contain w-12 ml-2"
-            />
-          </div>
-          <div className="flex h-20 w-20  bg-white  rounded-full border-2 hover:bg-green-600 transition-all    ">
-            <img
-              src={chevronRight}
-              alt="button left scroll"
-              className=" object-contain w-12 ml-4"
-            />
-          </div>
-        </div>
       </div>
       <div className="flex overflow-x-auto gap-10 hide-scrollbar">
         {THERAPIES.map((therapy) => (
