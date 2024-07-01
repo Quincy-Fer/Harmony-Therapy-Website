@@ -3,7 +3,7 @@ import TherapyCard from "../Components/TherapyCard";
 
 const Therapies = () => {
   return (
-    <section className="max-w-[1440px] mx-auto pt-20" id="therapies ">
+    <section className="max-w-[1440px] mx-auto pt-20" id="therapies">
       <div className="flex justify-center">
         <div className="flex flex-col text-center">
           <h2
