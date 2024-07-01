@@ -22,35 +22,45 @@ export const NAV_LINKS = [
 
 export const THERAPIES = [
   {
+    key: 1,
     title: "Individual Therapy",
     description:
       "One-on-one sessions to help you manage stress, anxiety, depression, and more. We offer personalized care to help you tackle life's challenges",
     imgURL: therapyIndividual,
+    alt: "Man being helped in individual therapy session"
   },
   {
+    key: 2,
     title: "Couples Therapy",
     description:
       "Enhance your relationship with improved communication and conflict resolution. Grow together into the person you want to be.",
     imgURL: therapyCouples,
+    alt: "Couple being helped in couple therapy session"
   },
   {
+    key: 3,
     title: "Family Therapy",
     description:
       "Build healthier family dynamics and improve communication. Create a stronger, more harmonious family unit.",
     imgURL: therapyFamily,
+    alt: "Family being helped in family therapy session"
   },
   {
+    key: 4,
     title: "Group Therapy",
     description:
       "Share experiences and learn from others in a supportive group setting. Find friendship and support in others.",
     imgURL: therapyGroup,
+    alt: "Group being helped in group therapy session"
   },
 
   {
+    key: 5,
     title: "Child and Adolescent Therapy",
     description:
       "Specialized care for young individuals facing emotional and behavioral challenges. Improve your mental health.",
     imgURL: therapyChild,
+    alt: "Adolescent  being helped in adolescent therapy session"
   },
 ];
 
@@ -81,7 +91,8 @@ export const BENEFITS = [
   {
     icon: checkmark,
     title: "Holistic Approach",
-    description: "Comprehensive care that addresses all facets of mental health",
+    description:
+      "Comprehensive care that addresses all facets of mental health",
   },
   {
     icon: checkmark,

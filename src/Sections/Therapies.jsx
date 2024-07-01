@@ -1,6 +1,9 @@
+import { THERAPIES } from "../constants";
+import TherapyCard from "../Components/TherapyCard";
+
 const Therapies = () => {
   return (
-    <section className="max-w-[1440px] mx-auto pt-20">
+    <section className="max-w-[1440px] mx-auto pt-20" id="therapies ">
       <div className="flex justify-center">
         <div className="flex flex-col text-center">
           <h2
@@ -18,7 +21,17 @@ const Therapies = () => {
           </p>
         </div>
       </div>
-      <div className="">lala</div>
+      <div className="">
+        {THERAPIES.map((therapy) => (
+          <TherapyCard
+            key={therapy.key}
+            title={therapy.title}
+            description={therapy.description}
+            img={therapy.imgURL}
+            alt={therapy.alt}
+          />
+        ))}
+      </div>
     </section>
   );
 };
