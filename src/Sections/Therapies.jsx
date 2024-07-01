@@ -21,7 +21,43 @@ const Therapies = () => {
             health journey:
           </p>
         </div>
+        {/* SVG DIV */}
+        <div className="flex flex-row gap-4 mt-20">
+          <div className="flex bg-white h-20 w-20 rounded-full hover:bg-green-600 transition-all">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="size-20 text-green-700 mr-2 hover:text-white"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15.75 19.5 8.25 12l7.5-7.5"
+              />
+            </svg>
+          </div>
+          <div className="flex bg-white h-20 w-20 rounded-full hover:bg-green-600 transition-all">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="size-20 text-green-700 ml-2 hover:text-white"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </div>
+        </div>
       </div>
+      {/* Cards */}
       <div className="flex overflow-x-auto gap-10 hide-scrollbar">
         {THERAPIES.map((therapy) => (
           <TherapyCard
