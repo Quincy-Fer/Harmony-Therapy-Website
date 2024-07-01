@@ -2,17 +2,17 @@ import { about } from "../assets/images";
 
 const About = () => {
   return (
-    <section className="max-w-[1440px] py-20  mx-auto" id="about">
+    <section className="max-w-[1440px] pt-20  mx-auto" id="about">
       <div className="flex  gap-20">
         <div className="flex-1 ">
-          <h1
-            className="  text-stone-700 text-[72px] max-w-[600px] font-bold font-quicksand
+          <h2
+            className="  text-stone-700 text-[60px] max-w-[600px] font-bold font-quicksand
          leading-tight tracking-tight "
           >
             Our Mission and Values
-          </h1>
+          </h2>
           <p
-            className="font-nunito max-w-[600px] text-base text-gray-600 tracking-wider leading-loose 
+            className="font-nunito max-w-[600px] text-base text-gray-500 tracking-wider leading-loose 
           mt-10 "
           >
             At Harmony, we are dedicated to providing compassionate,
