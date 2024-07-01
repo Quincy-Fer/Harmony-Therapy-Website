@@ -22,7 +22,7 @@ const Therapies = () => {
           </p>
         </div>
         {/* SVG DIV */}
-        <div className="flex flex-row gap-4 mt-20">
+        <div className="flex flex-row gap-10 mt-44">
           <div className="flex bg-white h-20 w-20 rounded-full hover:bg-green-600 transition-all">
             <svg
               xmlns="http://www.w3.org/2000/svg"
