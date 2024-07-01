@@ -1,6 +1,6 @@
 import { THERAPIES } from "../constants";
 import TherapyCard from "../Components/TherapyCard";
-import { chevronLeft, chevronRight } from "../assets/icons";
+import { chevronLeft, chevronRight, quotes } from "../assets/icons";
 
 const Therapies = () => {
   return (
@@ -21,10 +21,21 @@ const Therapies = () => {
             health journey:
           </p>
         </div>
-
-        <div className="flex h-20 w-20 gap-4 rounded-3xl place-items-end">
-          <img src={chevronLeft} alt="button to scroll left" className="w-12" />
-          <img src={chevronRight} alt="button to scroll right" className="w-12" />
+        <div className="flex gap-8 mt-8">
+          <div className="flex h-20 w-20  bg-white rounded-full border-2  hover:bg-green-600 transition-all  ">
+            <img
+              src={chevronLeft}
+              alt="button left scroll"
+              className=" object-contain w-12 ml-2"
+            />
+          </div>
+          <div className="flex h-20 w-20  bg-white  rounded-full border-2 hover:bg-green-600 transition-all    ">
+            <img
+              src={chevronRight}
+              alt="button left scroll"
+              className=" object-contain w-12 ml-4"
+            />
+          </div>
         </div>
       </div>
       <div className="flex overflow-x-auto gap-10 hide-scrollbar">
