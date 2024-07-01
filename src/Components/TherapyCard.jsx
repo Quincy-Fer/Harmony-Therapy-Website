@@ -1,14 +1,14 @@
 const TherapyCard = ({ title, description, img, alt }) => {
   return (
-    <div class="relative max-w-[600px] max-h-[720px] overflow-hidden mx-auto mt-10">
-      <img
-        class=" object-contain rounded-3xl over "
-        src={img}
-        alt={alt}
-      />
-      <div class="absolute inset-0 bg-gray-500 opacity-65 rounded-3xl"></div>
-      <div class="absolute inset-0 flex items-center justify-center">
-        <h2 class="text-white text-3xl font-bold">Get Lost in Mountains</h2>
+    <div className="mt-10 max-w-[400px] bg-white rounded-3xl shadow-md">
+      <img src={img} alt={alt} className="rounded-t-3xl h-[500px] w-[400px] object-cover object-top" />
+
+      <div className="p-5">
+        <h5 className="mb-2 text-[28px] font-nunito font-bold tracking-tight text-stone-700 ">
+          {title}
+        </h5>
+
+        <p className="mb-3 leading-relaxed tracking-wider text-gray-500 ">{description}</p>
       </div>
     </div>
   );

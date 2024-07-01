@@ -21,9 +21,9 @@ const Therapies = () => {
           </p>
         </div>
       </div>
-      <div className="">
+      <div className=" ">
         {THERAPIES.map((therapy) => (
-          <TherapyCard
+          <TherapyCard 
             key={therapy.key}
             title={therapy.title}
             description={therapy.description}
