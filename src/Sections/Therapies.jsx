@@ -21,7 +21,7 @@ const Therapies = () => {
           </p>
         </div>
       </div>
-      <div className=" ">
+      <div className="flex overflow-x-auto gap-20 ">
         {THERAPIES.map((therapy) => (
           <TherapyCard 
             key={therapy.key}
