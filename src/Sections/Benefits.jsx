@@ -3,7 +3,7 @@ import BenefitCard from "../Components/BenefitCard";
 
 const Benefits = () => {
   return (
-    <section className="max-w-[1440px] border border-green-300 mt-20 mx-auto bg-green-500 rounded-3xl p-10">
+    <section className="max-w-[1440px] mt-20 mx-auto bg-gradient-to-tr from-green-600 via-emerald-400 to-green-400 rounded-3xl p-10">
       <div className="flex flex-col items-center">
         <h2
           className="text-white text-[60px] max-w-[720px] font-bold font-quicksand

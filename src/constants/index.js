@@ -72,7 +72,7 @@ export const BENEFITS = [
     icon: checkmark,
     title: "Personalized Care",
     description:
-      "At Harmony Mental Health Clinic, we tailor our therapy services to your unique needs, ensuring you receive the most effective and compassionate care. We believe in individualized treatment plans to help you achieve your mental wellness goals.",
+      "At Harmony Mental Health Clinic, we tailor our therapy services to your unique needs, ensuring you receive the most effective and compassionate care. We help you achieve your mental wellness goals.",
   },
   {
     key: 2,

@@ -1,7 +1,7 @@
 const BenefitCard = ({ title, description }) => {
   return (
     <div className="flex flex-col gap-4
-     bg-white border border-green-600 rounded-3xl p-5 ">
+     bg-white border border-green-400 rounded-3xl p-5 ">
       <div className="flex flex-row justify-center gap-4 p-5 ">
         <h4 className="text-green-600 self-center font-quicksand font-semibold text-[28px] mt-5 ">{title} </h4>
         <div className="w-10 h-10 shrink-0 ">
