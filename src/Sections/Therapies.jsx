@@ -1,6 +1,5 @@
 import { THERAPIES } from "../constants";
 import TherapyCard from "../Components/TherapyCard";
-import { chevronLeft, chevronRight, quotes } from "../assets/icons";
 
 const Therapies = () => {
   return (
@@ -23,7 +22,10 @@ const Therapies = () => {
         </div>
         {/* SVG DIV */}
         <div className="flex flex-row gap-10 mt-44">
-          <div className="flex bg-white h-20 w-20 rounded-full hover:bg-green-600 transition-all">
+          <div
+            className="flex bg-white h-20 w-20 rounded-full border border-green-300
+           hover:bg-green-600 transition-all "
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -39,7 +41,8 @@ const Therapies = () => {
               />
             </svg>
           </div>
-          <div className="flex bg-white h-20 w-20 rounded-full hover:bg-green-600 transition-all">
+          <div className="flex bg-white h-20 w-20 rounded-full border border-green-300
+           hover:bg-green-600 transition-all">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
