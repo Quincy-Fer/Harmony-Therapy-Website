@@ -4,6 +4,13 @@ import {
   therapyFamily,
   therapyGroup,
   therapyIndividual,
+  testimonialCouple,
+  testimonialFamily,
+  testimonialGroup,
+  testimonialMan1,
+  testimonialMan2,
+  testimonialWoman1,
+  testimonialWoman2,
 } from "../assets/images";
 
 import { checkmark, quotes } from "../assets/icons";
@@ -115,7 +122,7 @@ export const BENEFITS = [
     icon: checkmark,
     title: "Proven Results",
     description:
-      "Our clients’ success stories and testimonials reflect our commitment to helping you achieve lasting positive change. We take pride in the transformative impact of our therapies.",
+      "Our clients' success stories and testimonials reflect our commitment to helping you achieve lasting positive change. We take pride in the transformative impact of our therapies.",
   },
   {
     key: 8,
@@ -123,5 +130,73 @@ export const BENEFITS = [
     title: "Ongoing Support",
     description:
       "We are dedicated to providing continuous support, helping you develop the skills and resilience needed for a healthier, happier life. Our care doesn’t end when you leave our office.",
+  },
+];
+
+// Testimonials
+
+export const TESTIMONIALS = [
+  {
+    key: 1,
+    icon: quotes,
+    therapy: "Group Therapy",
+    img: testimonialGroup,
+    name: "Lisa M.",
+    quote:
+      "Group therapy at Harmony provided me with a sense of community and understanding. Sharing my experiences with others who faced similar challenges was incredibly comforting and empowering. I no longer feel alone in my struggles and have developed meaningful connections that continue to support me.",
+  },
+  {
+    key: 2,
+    icon: quotes,
+    therapy: "Individual Therapy",
+    img: testimonialMan1,
+    name: "David E.",
+    quote:
+      "Thanks to Harmony Mental Health Clinic, I've found peace and balance in my life. The supportive environment and caring therapists made all the difference. I feel more confident and equipped to handle my anxiety and stress.",
+  },
+  {
+    key: 3,
+    icon: quotes,
+    therapy: "Indivual Therapy",
+    img: testimonialWoman1,
+    name: "Michelle S.",
+    quote:
+      "My therapist at Harmony has been a tremendous support in helping me overcome my past traumas. I feel heard, understood, and guided through every step of my healing journey. I am finally able to move forward with my life.",
+  },
+  {
+    key: 4,
+    icon: quotes,
+    therapy: "Adolescent Therapy",
+    img: testimonialWoman2,
+    name: "Karen G.",
+    quote:
+      "The therapists at Harmony are amazing. They helped my teenage son navigate his emotions and build healthy coping skills. He has become more confident and better equipped to handle his feelings. I am grateful for the positive impact Harmony has had on our family.",
+  },
+  {
+    key: 5,
+    icon: quotes,
+    therapy: "Couples Therapy",
+    img: testimonialCouple,
+    name: "Javier and Isabelle ",
+    quote:
+      "Couples therapy at Harmony saved our marriage. The sessions helped us communicate better and understand each other more deeply. We have resolved long-standing issues and feel more connected than ever before. Harmony gave us the tools to strengthen our relationship.",
+  },
+  {
+    key: 6,
+    icon: quotes,
+    therapy: "Family Therapy",
+    img: testimonialFamily,
+    name: "Janssen Family",
+    quote:
+      "Our family dynamic has improved significantly thanks to the family therapy sessions at Harmony. We learned how to communicate better and understand each other's perspectives. The change has been remarkable, and we are now closer and more supportive of one another.",
+  },
+  {
+    key: 7,
+    icon: quotes,
+    therapy: "Individual Therapy",
+    img: testimonialMan2,
+    name: "James T.",
+    quote:
+      "The individual therapy I received at Harmony has truly transformed my life. The compassionate and professional approach of my therapist helped me gain insight into my behaviors and develop healthier coping mechanisms. I now feel more empowered and in control.",
   },
 ];
