@@ -68,44 +68,52 @@ export const THERAPIES = [
 
 export const BENEFITS = [
   {
+    key: 1,
     icon: checkmark,
     title: "Personalized Care",
     description: "Tailored therapy to meet your unique needs.",
   },
   {
+    key: 2,
     icon: checkmark,
     title: "Experienced Therapists",
     description: "Experienced therapists dedicated to your care.",
   },
   {
+    key: 3,
     icon: checkmark,
     title: "Safe Environment",
     description: "A welcoming space to explore your feelings.",
   },
   {
+    key: 4,
     icon: checkmark,
     title: "Diverse Therapies",
     description:
       "From individual to family therapy, we cover all aspects of mental health.",
   },
   {
+    key: 5,
     icon: checkmark,
     title: "Holistic Approach",
     description:
       "Comprehensive care that addresses all facets of mental health",
   },
   {
+    key: 6,
     icon: checkmark,
     title: "Accessible and Convenient",
     description: "Central location with flexible scheduling.",
   },
 
   {
+    key: 7,
     icon: checkmark,
     title: "Proven Results",
     description: "Hear from those we've helped.",
   },
   {
+    key: 8,
     icon: checkmark,
     title: "Ongoing Support",
     description: "Continuous care for lasting positive change.",
