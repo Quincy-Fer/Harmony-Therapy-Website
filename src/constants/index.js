@@ -71,51 +71,57 @@ export const BENEFITS = [
     key: 1,
     icon: checkmark,
     title: "Personalized Care",
-    description: "Tailored therapy to meet your unique needs.",
+    description:
+      "At Harmony Mental Health Clinic, we tailor our therapy services to your unique needs, ensuring you receive the most effective and compassionate care. We believe in individualized treatment plans to help you achieve your mental wellness goals.",
   },
   {
     key: 2,
     icon: checkmark,
     title: "Experienced Therapists",
-    description: "Experienced therapists dedicated to your care.",
+    description:
+      "Our team of licensed professionals brings a wealth of experience and specialized training to provide the highest quality mental health care. They are dedicated to supporting you with empathy and expertise.",
   },
   {
     key: 3,
     icon: checkmark,
     title: "Safe Environment",
-    description: "A welcoming space to explore your feelings.",
+    description:
+      "We offer a welcoming, confidential space where you can explore your thoughts and feelings without judgment. Our clinic is designed to be a sanctuary for your mental health journey.",
   },
   {
     key: 4,
     icon: checkmark,
     title: "Diverse Therapies",
     description:
-      "From individual to family therapy, we cover all aspects of mental health.",
+      "From individual therapy to couples, family, and group sessions, we provide a wide range of services to support your mental wellness. Whatever your needs, we have the right therapy for you.",
   },
   {
     key: 5,
     icon: checkmark,
     title: "Holistic Approach",
     description:
-      "Comprehensive care that addresses all facets of mental health",
+      "We believe in treating the whole person, incorporating various therapeutic techniques to promote overall well-being. Our holistic methods address all aspects of your mental health.",
   },
   {
     key: 6,
     icon: checkmark,
-    title: "Accessible and Convenient",
-    description: "Central location with flexible scheduling.",
+    title: "Accessible & Convenient",
+    description:
+      "Located in a central area with flexible scheduling options, we make it easy for you to prioritize your mental health. We aim to remove barriers to accessing the care you need.",
   },
 
   {
     key: 7,
     icon: checkmark,
     title: "Proven Results",
-    description: "Hear from those we've helped.",
+    description:
+      "Our clients’ success stories and testimonials reflect our commitment to helping you achieve lasting positive change. We take pride in the transformative impact of our therapies.",
   },
   {
     key: 8,
     icon: checkmark,
     title: "Ongoing Support",
-    description: "Continuous care for lasting positive change.",
+    description:
+      "We are dedicated to providing continuous support, helping you develop the skills and resilience needed for a healthier, happier life. Our care doesn’t end when you leave our office.",
   },
 ];
