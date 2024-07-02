@@ -14,7 +14,7 @@ const Therapies = () => {
           </h2>
           <p
             className="font-nunito max-w-[500px] text-base text-gray-500 tracking-wider leading-loose 
-          mt-10 text-center "
+          mt-10 text-center"
           >
             Our diverse therapy options are designed to support your mental
             health journey:
@@ -23,7 +23,7 @@ const Therapies = () => {
         {/* SVG DIV */}
         <div className="flex flex-row gap-10 mt-44">
           <div
-            className="flex bg-white h-20 w-20 rounded-full border border-green-300
+            className="flex bg-white h-20 w-20 rounded-full border hover:cursor-pointer border-green-300
            hover:bg-green-600 transition-all "
           >
             <svg
@@ -32,7 +32,7 @@ const Therapies = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-20 text-green-700 mr-2 hover:text-white"
+              className=" text-green-700 mr-2 hover:text-white "
             >
               <path
                 strokeLinecap="round"
@@ -41,15 +41,17 @@ const Therapies = () => {
               />
             </svg>
           </div>
-          <div className="flex bg-white h-20 w-20 rounded-full border border-green-300
-           hover:bg-green-600 transition-all">
+          <div
+            className="flex bg-white h-20 w-20 rounded-full border border-green-300
+           hover:bg-green-600 hover:cursor-pointer transition-all"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-20 text-green-700 ml-2 hover:text-white"
+              className="size-20 text-green-700 ml-2 hover:text-white "
             >
               <path
                 strokeLinecap="round"
