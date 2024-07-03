@@ -145,7 +145,7 @@ export const TESTIMONIALS = [
     img: testimonialGroup,
     name: "Lisa M.",
     quote:
-      "Group therapy at Harmony provided me with a sense of community and understanding. Sharing my experiences with others who faced similar challenges was incredibly comforting and empowering. I no longer feel alone in my struggles and have developed meaningful connections that continue to support me.",
+      "Group therapy at Harmony provided me with a sense of community and understanding. Sharing my experiences with others who faced similar challenges was incredibly comforting and empowering.",
   },
   {
     key: 2,
@@ -154,7 +154,7 @@ export const TESTIMONIALS = [
     img: testimonialMan1,
     name: "David E.",
     quote:
-      "Thanks to Harmony Mental Health Clinic, I've found peace and balance in my life. The supportive environment and caring therapists made all the difference. I feel more confident and equipped to handle my anxiety and stress.",
+      "Thanks to Harmony Mental Health Clinic, I've found peace and balance in my life. The supportive environment and caring therapists made all the difference. ",
   },
   {
     key: 3,
@@ -163,7 +163,7 @@ export const TESTIMONIALS = [
     img: testimonialWoman1,
     name: "Michelle S.",
     quote:
-      "My therapist at Harmony has been a tremendous support in helping me overcome my past traumas. I feel heard, understood, and guided through every step of my healing journey. I am finally able to move forward with my life.",
+      "My therapist at Harmony has been a tremendous support in helping me overcome my past traumas. I feel heard, understood, and guided through every step of my healing journey. ",
   },
   {
     key: 4,
@@ -172,7 +172,7 @@ export const TESTIMONIALS = [
     img: testimonialWoman2,
     name: "Karen G.",
     quote:
-      "The therapists at Harmony are amazing. They helped my teenage son navigate his emotions and build healthy coping skills. He has become more confident and better equipped to handle his feelings. I am grateful for the positive impact Harmony has had on our family.",
+      "The therapists at Harmony are amazing. They helped my teenage son navigate his emotions and build healthy coping skills. I am grateful for the positive impact Harmony had on our son.",
   },
   {
     key: 5,
@@ -190,7 +190,7 @@ export const TESTIMONIALS = [
     img: testimonialFamily,
     name: "Janssen Family",
     quote:
-      "Our family dynamic has improved significantly thanks to the family therapy sessions at Harmony. We learned how to communicate better and understand each other's perspectives. The change has been remarkable, and we are now closer and more supportive of one another.",
+      "Our family dynamic has improved significantly thanks to the family therapy sessions at Harmony. We learned how to communicate better and understand each other's perspectives. We are now closer and more supportive of one another.",
   },
   {
     key: 7,
@@ -207,7 +207,7 @@ export const TESTIMONIALS = [
     img: therapyGroup1,
     name: "Alexandra B.",
     quote:
-      "Joining the group therapy sessions at Harmony was one of the best decisions I've made. The shared experiences and mutual support have been incredibly healing. It's comforting to know I'm not alone and to have a community that understands and supports each other.",
+      "Joining the group therapy sessions at Harmony was one of the best decisions I've made.It's comforting to know I'm not alone and to have a community that understands and supports each other.",
   },
   {
     key: 9,
@@ -215,6 +215,6 @@ export const TESTIMONIALS = [
     img: testimonialWoman3,
     name: "Emily A.",
     quote:
-      "Harmony Mental Health Clinic has been a game-changer for me. The compassionate support and practical advice from my therapist have helped me navigate a very challenging time in my life. I've grown so much emotionally and feel more optimistic about the future.",
+      "Harmony Mental Health Clinic has been a game-changer for me. The compassionate support and practical advice from my therapist have helped me navigate a very challenging time in my life. ",
   },
 ];

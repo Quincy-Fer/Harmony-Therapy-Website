@@ -2,7 +2,7 @@ import { quotes } from "../assets/icons";
 
 const TestimonialCard = ({ name, quote, imgURL, therapy }) => {
   return (
-    <div className="max-w-[400px] mb-4 h-full border bg-lime-50 rounded-3xl shadow-md break-inside-avoid">
+    <div className="max-w-[440px] mb-4 h-full border bg-lime-50 rounded-3xl shadow-md break-inside-avoid">
       <div className="ml-6 mt-4 flex w-full ">
         <svg
           className="w-10 text-green-700 "
@@ -22,8 +22,8 @@ const TestimonialCard = ({ name, quote, imgURL, therapy }) => {
         <p className="font-nunito  text-lg text-gray-500 
            p-5 text-balance">{quote}</p>
       </div>
-      <div className="flex flex-row ">
-        <div className="ml-4 mb-4">
+      <div className="flex ">
+        <div className="ml-6 mb-4">
           <img
             src={imgURL}
             alt="portrait of therapy person"
@@ -31,7 +31,7 @@ const TestimonialCard = ({ name, quote, imgURL, therapy }) => {
           />
         </div>
         <p className="font-quicksand  text-lg text-gray-900 font-bold 
-           p-5 text-balance">{name}</p>
+           p-4 text-balance">{name}</p>
       </div>
     </div>
   );

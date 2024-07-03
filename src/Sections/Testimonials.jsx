@@ -4,7 +4,7 @@ import TestimonialCard from "../Components/TestimonialCard";
 const Testimonials = () => {
   return (
     <section
-      className="w-full mx-auto  max-h-[1] bg-slate-100  mt-20 rounded-3xl"
+      className="w-full mx-auto h-[1168px] bg-green-100  mt-20 rounded-3xl overflow-hidden"
       id="testimonial"
     >
       {/* heading and paragraph */}
