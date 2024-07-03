@@ -12,7 +12,7 @@ const Therapies = () => {
             className="font-nunito text-base text-gray-500 tracking-wider leading-loose 
           mt-12 italic"
           >
-            Click for more therapies
+            Click for more Therapies
           </p>
           <div
             className="flex bg-white h-20 w-20 rounded-full border hover:cursor-pointer border-green-300

@@ -11,21 +11,24 @@ const FinalCTA = () => {
         </div>
         {/* Right col */}
         <div className="flex-1 p-20">
-          <h2
-            className="text-white text-[60px] max-w-[600px] font-bold font-quicksand
+          <div className=" ">
+            <h2
+              className="text-white text-[60px] max-w-[600px] font-bold font-quicksand
          leading-tight tracking-tight "
-          >
-            Ready to Take the Next Step?
-          </h2>
-          <p
-            className="font-nunito max-w-[600px] text-lg  text-white tracking-wider leading-loose
-          mt-10 "
-          >
-            We're here to answer your questions and help you start your journey
-            to mental wellness. Contact us today to schedule your initial
-            consultation.
-          </p>
-          <ButtonWhite label="Get Consultation Today" />
+            >
+              Ready to Take the Next Step?
+            </h2>
+            <p
+              className="font-nunito max-w-[600px] text-lg  text-white tracking-wider leading-loose
+          mt-10 mb-10 "
+            >
+              We're here to answer your questions and help you start your
+              journey to mental wellness. Contact us today to schedule your
+              initial consultation.
+            </p>
+
+            <ButtonWhite label="Get Consultation Today" />
+          </div>
         </div>
       </div>
     </section>
