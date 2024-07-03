@@ -48,7 +48,7 @@ const Team = () => {
               className="font-nunito max-w-[640px]  text-gray-600 tracking-wide 
           text-balance text-lg italic mt-20"
             >
-              Click an image below to learn more
+              Click an image below to learn more about our therapists
             </p>
           </div>
           <div className="flex-1">
