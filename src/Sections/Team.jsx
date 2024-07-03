@@ -1,8 +1,12 @@
 import { TEAM, TEAMHERO } from "../constants";
+import TeamCard from "../Components/TeamCard";
 
 const Team = () => {
   return (
-    <section className="max-w-[1440px] mx-auto pt-20 border border-gray-500">
+    <section
+      className="max-w-[1440px] mx-auto pt-20 border border-gray-500"
+      id="team"
+    >
       {/* Heading Subheading */}
       <div className="flex flex-col">
         <div className="border border-blue-900">
@@ -42,15 +46,28 @@ const Team = () => {
               your mental health goals may be, our team is here to support you
               every step of the way.
             </p>
+
+            <p
+              className="font-nunito max-w-[640px]  text-gray-600 tracking-wide 
+          text-balance text-lg italic mt-20"
+            >
+              Click an image below to learn more
+            </p>
           </div>
           <div className="border border-yellow-500 flex-1">
             <img
               src={TEAMHERO.imgURL}
-              alt=""
+              alt={TEAMHERO.alt}
               className="rounded-3xl object-cover"
             />
           </div>
         </div>
+      </div>
+      {/* IMAGES map */}
+      <div className="flex justify-start gap-20 mt-5 ">
+        {TEAM.map((item) => (
+          <TeamCard key={item.key} imgURL={item.imgURL} alt={item.alt} />
+        ))}
       </div>
     </section>
   );
