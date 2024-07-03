@@ -226,14 +226,15 @@ export const TESTIMONIALS = [
 
 // Team
 
+export const TEAMHERO = {
+  key: 1,
+  text: "Our dedicated team of mental health professionals is here to support you. Each therapist brings their own unique expertise and compassionate approach to help you on your journey to wellness. Meet our team members, learn about their backgrounds, and find the therapist who feels right for you.",
+  imgURL: team,
+  name: "The Harmony Team",
+  alt: "Group photo of therapist",
+};
+
 export const TEAM = [
-  {
-    key: 1,
-    text: "Our dedicated team of mental health professionals is here to support you. Each therapist brings their own unique expertise and compassionate approach to help you on your journey to wellness. Meet our team members, learn about their backgrounds, and find the therapist who feels right for you.",
-    imgURL: team,
-    name: "The Harmony Team",
-    alt: "Group photo of therapist",
-  },
   {
     key: 2,
     text: "Dr. Samantha Lee is a child and adolescent psychologist with a doctorate in clinical psychology. She specializes in adolescent therapy, utilizing play therapy and cognitive-behavioral techniques to address emotional and behavioral challenges. Dr. Lee's friendly and engaging manner helps young clients feel comfortable and supported as they navigate their difficulties.",

@@ -3,10 +3,10 @@ import { about } from "../assets/images";
 const About = () => {
   return (
     <section className="max-w-[1440px] pt-20  mx-auto" id="about">
-      <div className="flex  gap-20">
+      <div className="flex gap-20">
         <div className="flex-1 ">
           <h2
-            className="  text-stone-700 text-[60px] max-w-[600px] font-bold font-quicksand
+            className="text-stone-700 text-[60px] max-w-[600px] font-bold font-quicksand
          leading-tight tracking-tight "
           >
             Our Mission and Values
