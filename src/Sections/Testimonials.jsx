@@ -8,15 +8,15 @@ const Testimonials = () => {
       id="testimonial"
     >
       {/* heading and paragraph */}
-      <div className="flex flex-col justify-start p-10">
+      <div className="flex flex-col justify-start mx-10">
         <h2
           className="text-stone-700 text-[60px]  font-bold font-quicksand
-         leading-tight tracking-tight"
+         leading-tight tracking-tight mt-10"
         >
           What our clients say
         </h2>
         <p
-          className="font-nunito max-w-[600px] text-base text-gray-700 tracking-wider leading-loose 
+          className="font-nunito max-w-[600px] text-base text-gray-600 tracking-wider leading-loose 
           mt-2"
         >
           Positive Changes, Real Results
@@ -24,16 +24,18 @@ const Testimonials = () => {
       </div>
 
       {/* cards */}
-      <div className="columns-sm ml-10">
-        {TESTIMONIALS.map((testimonial) => (
-          <TestimonialCard
-            key={testimonial.key}
-            therapy={testimonial.therapy}
-            name={testimonial.name}
-            quote={testimonial.quote}
-            imgURL={testimonial.img}
-          />
-        ))}
+      <div className="mt-2 p-5">
+        <div className="columns-sm ml-10  ">
+          {TESTIMONIALS.map((testimonial) => (
+            <TestimonialCard
+              key={testimonial.key}
+              therapy={testimonial.therapy}
+              name={testimonial.name}
+              quote={testimonial.quote}
+              imgURL={testimonial.img}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

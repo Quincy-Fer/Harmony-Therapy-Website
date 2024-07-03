@@ -11,6 +11,7 @@ import {
   testimonialMan2,
   testimonialWoman1,
   testimonialWoman2,
+  therapyGroup1,
 } from "../assets/images";
 
 import { checkmark, quotes } from "../assets/icons";
@@ -198,5 +199,13 @@ export const TESTIMONIALS = [
     name: "James T.",
     quote:
       "The individual therapy I received at Harmony has truly transformed my life. The compassionate and professional approach of my therapist helped me gain insight into my behaviors and develop healthier coping mechanisms. I now feel more empowered and in control.",
+  },
+  {
+    key: 8,
+    therapy: "Group Therapy",
+    img: therapyGroup1,
+    name: "Alexandra B.",
+    quote:
+      "Harmony Mental Health Clinic has been a game-changer for me. The compassionate support and practical advice from my therapist have helped me navigate a very challenging time in my life. I've grown so much emotionally and feel more optimistic about the future.",
   },
 ];
