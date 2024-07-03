@@ -1,5 +1,5 @@
 import about from "./about.jpg";
-import cta from "./cta.jpg";
+import cta from "./cta1.jpg";
 import hero from "./hero.jpg";
 import heroL from "./hero-L.jpg";
 import team from "./team.jpg";

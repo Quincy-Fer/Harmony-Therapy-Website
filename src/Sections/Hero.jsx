@@ -4,7 +4,7 @@ import { heroL } from "../assets/images";
 
 const Hero = () => {
   return (
-    <section className="flex relative max-h-screen justify-center ">
+    <section className="flex relative max-h-screen justify-center w-full ">
       <img
         src={heroL}
         alt="laughing psychologist with client"
