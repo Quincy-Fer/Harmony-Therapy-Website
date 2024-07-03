@@ -3,7 +3,7 @@ import { cta } from "../assets/images";
 
 const FinalCTA = () => {
   return (
-    <section className="w-full mt-20 bg-green-400 mx-auto">
+    <section className="w-full mt-20 bg-green-400 mx-auto" id="contact">
       <div className="flex">
         {/* img left */}
         <div className="flex-1 p-10 rounded-3xl my-10">
