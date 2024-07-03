@@ -2,7 +2,7 @@ import { quotes } from "../assets/icons";
 
 const TestimonialCard = ({ name, quote, imgURL, therapy }) => {
   return (
-    <div className="max-w-[440px] mb-4 h-full border bg-lime-50 rounded-3xl shadow-md break-inside-avoid">
+    <div className="max-w-[440px] mb-4 h-full border bg-lime-50 rounded-3xl shadow-green-900 shadow-lg break-inside-avoid">
       <div className="ml-6 mt-4 flex w-full ">
         <svg
           className="w-10 text-green-700 "
