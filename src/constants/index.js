@@ -13,6 +13,11 @@ import {
   testimonialWoman2,
   therapyGroup1,
   testimonialWoman3,
+  team,
+  team1,
+  team2,
+  team3,
+  team4,
 } from "../assets/images";
 
 import { checkmark, quotes } from "../assets/icons";
@@ -216,5 +221,40 @@ export const TESTIMONIALS = [
     name: "Emily A.",
     quote:
       "Harmony Mental Health Clinic has been a game-changer for me. The compassionate support and practical advice from my therapist have helped me navigate a very challenging time in my life. ",
+  },
+];
+
+// Team
+
+export const TEAM = [
+  {
+    key: 1,
+    text: "Our dedicated team of mental health professionals is here to support you. Each therapist brings their own unique expertise and compassionate approach to help you on your journey to wellness. Meet our team members, learn about their backgrounds, and find the therapist who feels right for you.",
+    imgURL: team,
+    name: "The Harmony Team",
+  },
+  {
+    key: 2,
+    text: "Dr. Samantha Lee is a child and adolescent psychologist with a doctorate in clinical psychology. She specializes in adolescent therapy, utilizing play therapy and cognitive-behavioral techniques to address emotional and behavioral challenges. Dr. Lee's friendly and engaging manner helps young clients feel comfortable and supported as they navigate their difficulties.",
+    imgURL: team1,
+    name: "Dr. Samantha Lee, Psy.D.",
+  },
+  {
+    key: 3,
+    text: "Maya Patel is a licensed clinical social worker with a master's degree in social work. She excels in couples and family therapy, focusing on improving communication and resolving conflicts. Maya's compassionate and practical approach creates a safe space for couples and families to achieve greater harmony and understanding.",
+    imgURL: team2,
+    name: "Maya Patel, M.S., LCSW",
+  },
+  {
+    key: 4,
+    text: "Dr. Emily Johnson is a licensed clinical psychologist with over 15 years of experience. She specializes in individual therapy and cognitive-behavioral therapy, helping adults manage anxiety, depression, and trauma. Dr. Johnson's warm and empathetic approach provides a supportive environment for clients to develop resilience and lead fulfilling lives.",
+    imgURL: team3,
+    name: "Dr. Emily Johnson, Ph.D.",
+  },
+  {
+    key: 5,
+    text: "Marie Blonde is a licensed professional counselor with a master's degree in counseling psychology. She specializes in group therapy and individual therapy for adults dealing with stress, anxiety, and life transitions. Marie employs a person-centered approach, fostering a trusting therapeutic relationship that empowers clients to make positive changes and achieve their mental health goals.",
+    imgURL: team4,
+    name: "Maria Blonde, M.A., LPC",
   },
 ];
