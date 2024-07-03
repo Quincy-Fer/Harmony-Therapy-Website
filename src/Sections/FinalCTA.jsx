@@ -1,3 +1,4 @@
+import ButtonWhite from "../Components/ButtonFinal";
 import { cta } from "../assets/images";
 
 const FinalCTA = () => {
@@ -24,7 +25,7 @@ const FinalCTA = () => {
             to mental wellness. Contact us today to schedule your initial
             consultation.
           </p>
-          <button></button>
+          <ButtonWhite label="Get Consultation Today" />
         </div>
       </div>
     </section>
