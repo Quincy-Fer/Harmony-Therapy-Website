@@ -3,13 +3,10 @@ import TeamCard from "../Components/TeamCard";
 
 const Team = () => {
   return (
-    <section
-      className="max-w-[1440px] mx-auto pt-20 border border-gray-500"
-      id="team"
-    >
+    <section className="max-w-[1440px] mx-auto pt-20" id="team">
       {/* Heading Subheading */}
       <div className="flex flex-col">
-        <div className="border border-blue-900">
+        <div className="">
           <h2
             className="text-stone-700 text-[60px] max-w-[600px] font-bold font-quicksand
          leading-tight tracking-tight "
@@ -26,7 +23,7 @@ const Team = () => {
 
         {/* Image and Text */}
         <div className="flex flex-row mt-10">
-          <div className="flex-1 border border-green-300 ">
+          <div className="flex-1  ">
             <p
               className="font-nunito max-w-[640px]  text-gray-900 tracking-wide 
           text-balance text-lg"
@@ -54,7 +51,7 @@ const Team = () => {
               Click an image below to learn more
             </p>
           </div>
-          <div className="border border-yellow-500 flex-1">
+          <div className="flex-1">
             <img
               src={TEAMHERO.imgURL}
               alt={TEAMHERO.alt}
