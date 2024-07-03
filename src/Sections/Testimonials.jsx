@@ -9,7 +9,7 @@ const Testimonials = () => {
         id="testimonial"
       >
         {/* heading and paragraph */}
-        <div className="flex flex-col justify-start mx-10">
+        <div className="flex flex-col justify-start mx-12">
           <h2
             className="text-lime-100 text-[60px]  font-bold font-quicksand
          leading-tight tracking-tight mt-10"
@@ -24,7 +24,7 @@ const Testimonials = () => {
           </p>
         </div>
         {/* cards */}
-        <div className="mt-2 p-5">
+        <div className="mt-2 p-3">
           <div className="columns-sm ml-10  ">
             {TESTIMONIALS.map((testimonial) => (
               <TestimonialCard
