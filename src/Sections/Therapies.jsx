@@ -4,24 +4,16 @@ import TherapyCard from "../Components/TherapyCard";
 const Therapies = () => {
   return (
     <section className="max-w-[1440px] mx-auto pt-20" id="therapies">
-      <div className="flex justify-center gap-48">
-        <div className="flex flex-col items-center">
-          <h2
-            className="text-stone-700 text-[60px] max-w-[720px] font-bold font-quicksand
-         leading-tight tracking-tight text-center"
-          >
-            Tailored Therapies for Your Needs
-          </h2>
-          <p
-            className="font-nunito max-w-[500px] text-base text-gray-500 tracking-wider leading-loose 
-          mt-10 text-center"
-          >
-            Our diverse therapy options are designed to support your mental
-            health journey:
-          </p>
-        </div>
+      <div className="flex justify-between ">
+        {" "}
         {/* SVG DIV */}
-        <div className="flex flex-row gap-10 mt-44">
+        <div className=" flex gap-10 mt-32 ">
+          <p
+            className="font-nunito text-base text-gray-500 tracking-wider leading-loose 
+          mt-12 italic"
+          >
+            Click for more therapies
+          </p>
           <div
             className="flex bg-white h-20 w-20 rounded-full border hover:cursor-pointer border-green-300
            hover:bg-green-600 transition-all "
@@ -60,6 +52,21 @@ const Therapies = () => {
               />
             </svg>
           </div>
+        </div>
+        <div className="flex flex-col ">
+          <h2
+            className="text-stone-700 text-[60px] max-w-[720px] font-bold font-quicksand
+         leading-tight tracking-tight "
+          >
+            Tailored Therapies for Your Needs
+          </h2>
+          <p
+            className="font-nunito text-lg text-gray-500 tracking-wider leading-loose 
+          mt-10 "
+          >
+            Our diverse therapy options are designed to support your mental
+            health journey
+          </p>
         </div>
       </div>
       {/* Cards */}
