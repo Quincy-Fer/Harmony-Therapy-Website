@@ -12,6 +12,7 @@ import {
   testimonialWoman1,
   testimonialWoman2,
   therapyGroup1,
+  testimonialWoman3,
 } from "../assets/images";
 
 import { checkmark, quotes } from "../assets/icons";
@@ -205,6 +206,14 @@ export const TESTIMONIALS = [
     therapy: "Group Therapy",
     img: therapyGroup1,
     name: "Alexandra B.",
+    quote:
+      "Joining the group therapy sessions at Harmony was one of the best decisions I've made. The shared experiences and mutual support have been incredibly healing. It's comforting to know I'm not alone and to have a community that understands and supports each other.",
+  },
+  {
+    key: 9,
+    therapy: "Individual Therapy",
+    img: testimonialWoman3,
+    name: "Emily A.",
     quote:
       "Harmony Mental Health Clinic has been a game-changer for me. The compassionate support and practical advice from my therapist have helped me navigate a very challenging time in my life. I've grown so much emotionally and feel more optimistic about the future.",
   },

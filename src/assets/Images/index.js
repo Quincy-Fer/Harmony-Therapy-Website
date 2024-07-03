@@ -20,6 +20,7 @@ import therapyFamily from "./therapy-family.jpg";
 import therapyGroup from "./therapy-group.jpg";
 import therapyIndividual from "./therapy-individual.jpg";
 import therapyGroup1 from './therapy-group-2.jpg';
+import testimonialWoman3 from './testimonial-woman-3.jpg'
 
 export {
   about,
@@ -43,5 +44,7 @@ export {
   therapyFamily,
   therapyGroup,
   therapyIndividual,
-  therapyGroup1
+  therapyGroup1,
+  testimonialWoman3
+  
 };
