@@ -4,19 +4,19 @@ import TestimonialCard from "../Components/TestimonialCard";
 const Testimonials = () => {
   return (
     <section
-      className="w-full mx-auto border border-green-600 bg-white mt-20 rounded-3xl"
+      className="w-full mx-auto  max-h-[1] bg-slate-100  mt-20 rounded-3xl"
       id="testimonial"
     >
       {/* heading and paragraph */}
-      <div className="flex flex-col justify-start p-5">
+      <div className="flex flex-col justify-start p-10">
         <h2
           className="text-stone-700 text-[60px]  font-bold font-quicksand
          leading-tight tracking-tight"
         >
-          Hear from Our Clients
+          What our clients say
         </h2>
         <p
-          className="font-nunito max-w-[600px] text-base text-gray-500 tracking-wider leading-loose 
+          className="font-nunito max-w-[600px] text-base text-gray-700 tracking-wider leading-loose 
           mt-2"
         >
           Positive Changes, Real Results
@@ -24,7 +24,7 @@ const Testimonials = () => {
       </div>
 
       {/* cards */}
-      <div className="">
+      <div className="columns-sm ml-10">
         {TESTIMONIALS.map((testimonial) => (
           <TestimonialCard
             key={testimonial.key}
