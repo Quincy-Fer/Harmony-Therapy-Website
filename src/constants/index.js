@@ -157,7 +157,7 @@ export const TESTIMONIALS = [
   {
     key: 3,
     icon: quotes,
-    therapy: "Indivual Therapy",
+    therapy: "Individual Therapy",
     img: testimonialWoman1,
     name: "Michelle S.",
     quote:
