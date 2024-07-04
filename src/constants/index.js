@@ -236,6 +236,13 @@ export const TEAMHERO = {
 
 export const TEAM = [
   {
+    key: 1,
+    text: "At Harmony Mental Health Clinic, our team is a dedicated group of professionals committed to your well-being and mental health. Together, we offer a comprehensive range of therapeutic services designed to support you on your journey to wellness. We believe in a collaborative approach to care, where each member brings their unique expertise and perspective to provide holistic support. From individual therapy and couples counseling to family sessions and adolescent therapy, our team works together to create personalized treatment plans that address your specific needs. With empathy, compassion, and a commitment to your growth, we strive to create a safe and nurturing environment where you can explore challenges, develop coping strategies, and achieve positive outcomes. Whatever your mental health goals may be, our team is here to support you every step of the way",
+    imgURL: team,
+    alt: "Photo of the Whole team",
+  },
+ 
+  {
     key: 2,
     text: "Dr. Samantha Lee is a child and adolescent psychologist with a doctorate in clinical psychology. She specializes in adolescent therapy, utilizing play therapy and cognitive-behavioral techniques to address emotional and behavioral challenges. Dr. Lee's friendly and engaging manner helps young clients feel comfortable and supported as they navigate their difficulties.",
     imgURL: team1,
