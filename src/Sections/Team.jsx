@@ -11,7 +11,7 @@ const Team = () => {
             className="text-stone-700 text-[60px]  font-bold font-quicksand
          leading-tight tracking-tight "
           >
-            The Harmony Therapy Team
+            The Harmony Team
           </h2>
           <p
             className="font-nunito max-w-[600px] text-base text-gray-500 tracking-wider leading-loose 

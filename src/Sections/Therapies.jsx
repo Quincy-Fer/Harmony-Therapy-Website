@@ -70,7 +70,7 @@ const Therapies = () => {
         </div>
       </div>
       {/* Cards */}
-      <div className="flex overflow-x-auto gap-10 hide-scrollbar">
+      <div className="flex overflow-x-auto gap-10 hide-scrollbar transition ease-out duration-400">
         {THERAPIES.map((therapy) => (
           <TherapyCard
             key={therapy.key}
