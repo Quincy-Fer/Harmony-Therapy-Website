@@ -22,7 +22,7 @@ const Hero = () => {
       </div>
       {/* CTA's  */}
       <div className="absolute flex items-center justify-center top-[440px] gap-20 ">
-        <ButtonWhite label="Get in Contact" />
+        <ButtonWhite label="Get in Contact" idButton='footer' />
         <Button label="Book Consultation" />
       </div>
     </section>

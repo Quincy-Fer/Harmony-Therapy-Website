@@ -1,13 +1,23 @@
-const ButtonWhite = ({label}) => {
-    return (
-      <button
-        type="button"
-        className={`py-2 px-8 border border-none font-quicksand hover:underline
-         text-lime-50 font-bold text-lg  `}
-      >
-        {label}
-      </button>
-    );
+const ButtonWhite = ({ label, idButton }) => {
+  const handleClick = () => {
+    const targetElement = document.getElementById(idButton);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" })
+      ;
+    }
   };
-  
-  export default ButtonWhite;
+
+  return (
+    <button
+      onClick={handleClick}
+      type="button"
+      className={`py-2 px-8 border border-none font-quicksand hover:underline
+         text-lime-50 font-bold text-lg  `}
+    >
+      {label}
+    </button>
+  );
+};
+
+export default ButtonWhite;

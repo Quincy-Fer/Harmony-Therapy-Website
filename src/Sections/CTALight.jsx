@@ -19,7 +19,7 @@ const CtaLight = () => {
             you find the path to a happier, healthier life.
           </p>
         </div>
-        <Button label="Contact Us" />
+        <Button label="Contact Us" idButton="footer" />
       </div>
     </section>
   );

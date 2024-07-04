@@ -3,8 +3,8 @@ import { logoNoBG } from "../assets/images";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-white p-20" id="footer">
-      <div className="flex justify-around">
+    <footer className="w-full bg-white p-20 " id="footer">
+      <div className="flex justify-around mt-10">
         {/* Logo & Slogan */}
         <div className="flex flex-col ">
           <img src={logoNoBG} alt="Harmony Logo" className="bg-contain w-60" />
