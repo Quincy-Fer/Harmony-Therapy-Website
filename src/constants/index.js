@@ -29,7 +29,7 @@ export const NAV_LINKS = [
   { href: "#therapies", key: "therapies", label: "Therapies" },
   { href: "#testimonial", key: "testimonial", label: "Clients" },
   { href: "#team", key: "team", label: "Our Team" },
-  { href: "#contact", key: "contact", label: "Contact" },
+  { href: "#footer", key: "contact", label: "Contact" },
 ];
 
 // Therapies

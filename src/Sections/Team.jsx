@@ -8,14 +8,14 @@ const Team = () => {
       <div className="flex flex-col">
         <div className="">
           <h2
-            className="text-stone-700 text-[60px] max-w-[600px] font-bold font-quicksand
+            className="text-stone-700 text-[60px]  font-bold font-quicksand
          leading-tight tracking-tight "
           >
             The Harmony Therapy Team
           </h2>
           <p
             className="font-nunito max-w-[600px] text-base text-gray-500 tracking-wider leading-loose 
-          mt-10 "
+          mt-5 "
           >
             Providing Support and Expertise for Every Step of Your Journey
           </p>
