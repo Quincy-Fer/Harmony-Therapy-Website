@@ -32,7 +32,7 @@ const Team = () => {
 
         {/* Image and Text */}
         <div className="flex mt-10">
-          <div className="flex-1 ">
+          <div className="flex-1  ">
             <p
               className="font-nunito max-w-[640px]  text-gray-900 tracking-wide 
           text-balance text-lg"
@@ -42,7 +42,7 @@ const Team = () => {
 
             <p
               className="font-nunito max-w-[640px]  text-gray-600 tracking-wide 
-          text-balance text-lg italic mt-24"
+          text-balance text-lg italic mt-5"
             >
               Click an image below to learn more about our therapists
             </p>
@@ -57,7 +57,7 @@ const Team = () => {
         </div>
       </div>
       {/* IMAGES map */}
-      <div className="flex justify-start gap-20 mt-10">
+      <div className="flex justify-start gap-20 mt-10 ">
         {TEAM.slice(1).map((item) => (
           <TeamCard
             key={item.key}
