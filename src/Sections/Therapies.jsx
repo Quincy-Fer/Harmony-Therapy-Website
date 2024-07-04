@@ -1,7 +1,30 @@
 import { THERAPIES } from "../constants";
 import TherapyCard from "../Components/TherapyCard";
+import { useRef } from "react";
 
 const Therapies = () => {
+  const scrollContainerRef = useRef(null);
+
+  // Function to handle the previous button click
+  const handlePrevClick = () => {
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollBy({
+        left: -850, // Adjust the scroll distance as needed
+        behavior: "smooth",
+      });
+    }
+  };
+
+  // Function to handle the next button click
+  const handleNextClick = () => {
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollBy({
+        left: 850, // Adjust the scroll distance as needed
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <section className="max-w-[1440px] mx-auto pt-20" id="therapies">
       <div className="flex justify-between ">
@@ -17,6 +40,7 @@ const Therapies = () => {
           <div
             className="flex bg-white h-20 w-20 rounded-full border hover:cursor-pointer border-green-300
            hover:bg-green-600 transition-all "
+            onClick={handlePrevClick}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -36,6 +60,7 @@ const Therapies = () => {
           <div
             className="flex bg-white h-20 w-20 rounded-full border border-green-300
            hover:bg-green-600 hover:cursor-pointer transition-all"
+            onClick={handleNextClick}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +95,10 @@ const Therapies = () => {
         </div>
       </div>
       {/* Cards */}
-      <div className="flex overflow-x-auto gap-10 hide-scrollbar transition ease-out duration-400">
+      <div
+        className="flex overflow-x-auto gap-10 hide-scrollbar transition ease-out duration-400"
+        ref={scrollContainerRef}
+      >
         {THERAPIES.map((therapy) => (
           <TherapyCard
             key={therapy.key}
