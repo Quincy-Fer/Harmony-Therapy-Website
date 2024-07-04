@@ -4,7 +4,7 @@ import { logoNoBG } from "../assets/images";
 const Footer = () => {
   return (
     <footer className="w-full bg-white p-20 " id="footer">
-      <div className="flex justify-around mt-10">
+      <div className="flex justify-between mt-2">
         {/* Logo & Slogan */}
         <div className="flex flex-col ">
           <img src={logoNoBG} alt="Harmony Logo" className="bg-contain w-60" />
@@ -23,21 +23,29 @@ const Footer = () => {
           >
             Company
           </h6>
-          <p
-            className="font-nunito  text-base text-gray-600 tracking-wider leading-relaxed
+          <a href="#about">
+            <p
+              className="font-nunito  text-base text-gray-600 tracking-wider leading-relaxed
          mt-4 cursor-pointer hover:underline"
-          >
-            About Us
-          </p>
-          <p className="font-nunito  text-base text-gray-600 tracking-wider leading-relaxed cursor-pointer hover:underline ">
-            Our Therapies
-          </p>
-          <p className="font-nunito  text-base text-gray-600 tracking-wider leading-relaxed cursor-pointer hover:underline">
-            What others say
-          </p>
-          <p className="font-nunito  text-base text-gray-600 tracking-wider leading-relaxed cursor-pointer hover:underline ">
-            Meet the team
-          </p>
+            >
+              About Us
+            </p>
+          </a>
+          <a href="#therapies">
+            <p className="font-nunito  text-base text-gray-600 tracking-wider leading-relaxed cursor-pointer hover:underline ">
+              Our Therapies
+            </p>
+          </a>
+          <a href="#testimonial">
+            <p className="font-nunito  text-base text-gray-600 tracking-wider leading-relaxed cursor-pointer hover:underline">
+              What others say
+            </p>
+          </a>
+          <a href="#team">
+            <p className="font-nunito  text-base text-gray-600 tracking-wider leading-relaxed cursor-pointer hover:underline ">
+              Meet the team
+            </p>
+          </a>
         </div>
         {/* Contact Info */}
         <div className="flex flex-col">
@@ -59,12 +67,14 @@ const Footer = () => {
           >
             Phone: 123 - 456 - 789
           </p>
-          <p
-            className="font-nunito  text-base text-gray-600 tracking-wider leading-loose  cursor-pointer hover:underline 
+          <a href="mailto:harmony@info.com">
+            <p
+              className="font-nunito  text-base text-gray-600 tracking-wider leading-loose  cursor-pointer hover:underline 
          "
-          >
-            Email: harmony@info.nl
-          </p>
+            >
+              Email: harmony@info.nl
+            </p>
+          </a>
         </div>
         {/* Social Link */}
         <div className="">
@@ -73,15 +83,47 @@ const Footer = () => {
          leading-tight tracking-tight "
           >
             Follow Us
-          </h6> 
+          </h6>
           <div className="flex gap-2 mt-4">
-            <img src={instagram} alt="instagram" width={20} className="cursor-pointer " />
-            <img src={facebook} alt="instagram" width={20} className="cursor-pointer" />
-            <img src={twitter} alt="instagram" width={20} className="cursor-pointer" />
-            <img src={youtube} alt="instagram" width={20} className="cursor-pointer" />
+            <a href="https://www.instagram.com/" target="blank">
+              <img
+                src={instagram}
+                alt="instagram"
+                width={20}
+                className="cursor-pointer "
+              />
+            </a>
+            <a href="https://www.facebook.com/" target="blank">
+              <img
+                src={facebook}
+                alt="instagram"
+                width={20}
+                className="cursor-pointer"
+              />
+            </a>
+            <a href="https://x.com/" target="blank">
+              <img
+                src={twitter}
+                alt="instagram"
+                width={20}
+                className="cursor-pointer"
+              />
+            </a>
+            <a href="https://youtube.com/" target="blank">
+              <img
+                src={youtube}
+                alt="instagram"
+                width={20}
+                className="cursor-pointer"
+              />
+            </a>
           </div>
         </div>
       </div>
+      <div className="border bg-gray-20" />
+      <p className=" mt-6 text-gray-500 text-end font-quicksand">
+        2024 Harmony | Made by Quincy Fer &#169;
+      </p>
     </footer>
   );
 };
