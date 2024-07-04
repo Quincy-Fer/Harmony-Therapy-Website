@@ -1,8 +1,9 @@
+import { facebook, instagram, twitter, youtube } from "../assets/icons";
 import { logoNoBG } from "../assets/images";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-white p-10" id='footer'>
+    <footer className="w-full bg-white p-10" id="footer">
       <div className="flex justify-around">
         {/* Logo & Slogan */}
         <div className="flex flex-col ">
@@ -23,18 +24,18 @@ const Footer = () => {
             Company
           </h6>
           <p
-            className="font-nunito  text-base text-gray-600 tracking-wider leading-loose 
-         mt-5"
+            className="font-nunito  text-base text-gray-600 tracking-wider leading-relaxed
+         mt-4 cursor-pointer hover:underline"
           >
             About Us
           </p>
-          <p className="font-nunito  text-base text-gray-600 tracking-wider leading-loose ">
+          <p className="font-nunito  text-base text-gray-600 tracking-wider leading-relaxed cursor-pointer hover:underline ">
             Our Therapies
           </p>
-          <p className="font-nunito  text-base text-gray-600 tracking-wider leading-loose ">
+          <p className="font-nunito  text-base text-gray-600 tracking-wider leading-relaxed cursor-pointer hover:underline">
             What others say
           </p>
-          <p className="font-nunito  text-base text-gray-600 tracking-wider leading-loose ">
+          <p className="font-nunito  text-base text-gray-600 tracking-wider leading-relaxed cursor-pointer hover:underline ">
             Meet the team
           </p>
         </div>
@@ -48,7 +49,7 @@ const Footer = () => {
           </h6>
           <p
             className="font-nunito  text-base text-gray-600 tracking-wider leading-loose 
-         mt-5"
+         mt-4"
           >
             Address: Elysium 1, FlavorTown{" "}
           </p>
@@ -56,23 +57,29 @@ const Footer = () => {
             className="font-nunito  text-base text-gray-600 tracking-wider leading-loose 
         "
           >
-            Phone: 123 - 456 -789
+            Phone: 123 - 456 - 789
           </p>
           <p
-            className="font-nunito  text-base text-gray-600 tracking-wider leading-loose 
+            className="font-nunito  text-base text-gray-600 tracking-wider leading-loose  cursor-pointer hover:underline 
          "
           >
             Email: harmony@info.nl
           </p>
         </div>
         {/* Social Link */}
-        <div className="flex ">
+        <div className="">
           <h6
             className="text-stone-800 text-lg max-w-[600px] font-bold font-quicksand
          leading-tight tracking-tight "
           >
             Follow Us
-          </h6>
+          </h6> 
+          <div className="flex gap-2 mt-4">
+            <img src={instagram} alt="instagram" width={20} className="cursor-pointer " />
+            <img src={facebook} alt="instagram" width={20} className="cursor-pointer" />
+            <img src={twitter} alt="instagram" width={20} className="cursor-pointer" />
+            <img src={youtube} alt="instagram" width={20} className="cursor-pointer" />
+          </div>
         </div>
       </div>
     </footer>
