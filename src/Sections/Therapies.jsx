@@ -35,7 +35,7 @@ const Therapies = () => {
             className="font-nunito text-base text-gray-500 tracking-wider leading-loose 
           mt-12 italic"
           >
-            Click for more Therapies
+            Click to see more Therapies
           </p>
           <div
             className="flex bg-white h-20 w-20 rounded-full border hover:cursor-pointer border-green-300
@@ -96,7 +96,7 @@ const Therapies = () => {
       </div>
       {/* Cards */}
       <div
-        className="flex overflow-x-auto gap-10 hide-scrollbar transition ease-out duration-400"
+        className="flex overflow-x-auto gap-10 hide-scrollbar "
         ref={scrollContainerRef}
       >
         {THERAPIES.map((therapy) => (
