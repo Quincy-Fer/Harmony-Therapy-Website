@@ -3,7 +3,7 @@ import { logoNoBG } from "../assets/images";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-white p-10" id="footer">
+    <footer className="w-full bg-white p-20" id="footer">
       <div className="flex justify-around">
         {/* Logo & Slogan */}
         <div className="flex flex-col ">
