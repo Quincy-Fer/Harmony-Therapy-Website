@@ -3,15 +3,20 @@ import TeamCard from "../Components/TeamCard";
 import { useState } from "react";
 
 const Team = () => {
+
+  
   const [selectedContent, setSelectedContent] = useState({
     imgURL: TEAM[0].imgURL,
     text: TEAM[0].text,
     alt: TEAM[0].alt,
   });
 
-  const handleImageClick = (content) => {
+  const handleImageClick = (content,key) => {
     setSelectedContent(content);
+    setSelectedKey(key);
   };
+
+  const [selectedKey, setSelectedKey] = useState(TEAM[0].key);
 
   return (
     <section className="max-w-[1440px] mx-auto pt-20" id="team">
@@ -63,7 +68,8 @@ const Team = () => {
             key={item.key}
             imgURL={item.imgURL}
             alt={item.alt}
-            onClick={handleImageClick}
+            isSelected={selectedKey === item.key}
+            onClick={() => handleImageClick(item, item.key)}
             content={item}
           />
         ))}

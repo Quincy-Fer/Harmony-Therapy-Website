@@ -24,7 +24,7 @@ import { checkmark, quotes } from "../assets/icons";
 
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: "/", key: "home", label: "Home" },
+  
   { href: "#about", key: "about", label: "About Us" },
   { href: "#therapies", key: "therapies", label: "Therapies" },
   { href: "#testimonial", key: "testimonial", label: "Clients" },
