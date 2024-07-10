@@ -5,16 +5,16 @@ const Modal = ({ closeModal }) => {
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
       <div className="bg-white p-10 rounded-3xl max-w-md w-full">
         <div className="flex justify-between content-center mb-6 ">
-          <h2 className="text-2xl font-bold font-quicksand text-green-950 ">
-            Consultation Form
+          <h2 className="text-3xl font-bold font-quicksand text-green-950 ">
+            Book Consultation 
           </h2>
           <button onClick={closeModal}>
-            <img src={close} alt="close button" className="h-4" />
+            <img src={close} alt="close button" className=" w-5" />
           </button>
         </div>
 
         <form>
-          <div className="mb-4">
+          <div className="mb-4 ">
             <label
               className="block text-gray-700 text-base font-bold mb-2 font-nunito"
               htmlFor="name"
@@ -25,7 +25,8 @@ const Modal = ({ closeModal }) => {
               type="text"
               id="name"
               name="name"
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700
+               leading-tight focus:outline-none focus:shadow-outline"
               required
             />
           </div>
@@ -40,7 +41,8 @@ const Modal = ({ closeModal }) => {
               type="email"
               id="email"
               name="email"
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded w-full py-2 px-3
+               text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               required
             />
           </div>
@@ -55,7 +57,8 @@ const Modal = ({ closeModal }) => {
               type="tel"
               id="phone"
               name="phone"
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight
+               focus:outline-none focus:shadow-outline"
               required
             />
           </div>
@@ -79,13 +82,16 @@ const Modal = ({ closeModal }) => {
             <button
               type="button"
               onClick={closeModal}
-              className="mr-4 bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              className="mr-4 text-red-500 text-lg font-extrabold hover:underline font-quicksand
+               "
             >
               Cancel
             </button>
             <button
-              type="submit"
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              type="button"
+              onClick={closeModal}
+              className="bg-green-700 hover:bg-green-500 text-lg text-white font-bold py-1  font-quicksand
+               px-5 rounded-3xl "
             >
               Submit
             </button>

@@ -14,7 +14,7 @@ import NavBar from "./Components/NavBar";
 
 const App = () => {
   return (
-    <>
+    <div className="">
       <NavBar />
       <Hero />
       <About />
@@ -25,7 +25,7 @@ const App = () => {
       <Team />
       <FinalCTA />
       <Footer />
-    </>
+    </div>
   );
 };
 
