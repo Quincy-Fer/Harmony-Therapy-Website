@@ -1,4 +1,4 @@
-import Button from "../Components/Button";
+import ButtonCTa from "../Components/ButtonCta";
 
 const CtaLight = () => {
   return (
@@ -19,7 +19,8 @@ const CtaLight = () => {
             you find the path to a happier, healthier life.
           </p>
         </div>
-        <Button label="Contact Us" idButton="footer" />
+
+        <ButtonCTa label="Get in Touch!" idButton='footer'/>
       </div>
     </section>
   );
