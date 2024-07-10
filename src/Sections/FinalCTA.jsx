@@ -1,7 +1,15 @@
-import ButtonWhite from "../Components/ButtonFinal";
+import ButtonFinal from "../Components/ButtonFinal";
 import { cta } from "../assets/images";
+import { useState } from "react";
+import Modal from "../Components/Modal";
 
 const FinalCTA = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const toggleModal = () => {
+    setIsModalOpen(!isModalOpen);
+  };
+
   return (
     <section className="w-full mt-20 bg-green-400 mx-auto" id="contact">
       <div className="flex">
@@ -27,10 +35,11 @@ const FinalCTA = () => {
               initial consultation.
             </p>
 
-            <ButtonWhite label="Get Consultation Today" />
+            <ButtonFinal label="Get Consultation Today" onClick={toggleModal} />
           </div>
         </div>
       </div>
+      {isModalOpen && <Modal closeModal={toggleModal} />}
     </section>
   );
 };

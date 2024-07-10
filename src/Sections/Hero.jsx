@@ -1,8 +1,16 @@
 import Button from "../Components/Button";
 import ButtonWhite from "../Components/ButtonWhite";
 import { heroL } from "../assets/images";
+import { useState } from "react";
+import Modal from '../Components/Modal'
 
 const Hero = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const toggleModal = () => {
+    setIsModalOpen(!isModalOpen);
+  };
+
   return (
     <section className="flex relative max-h-screen justify-center w-full ">
       <img
@@ -22,9 +30,10 @@ const Hero = () => {
       </div>
       {/* CTA's  */}
       <div className="absolute flex items-center justify-center top-[440px] gap-20 ">
-        <ButtonWhite label="Get in Contact" idButton='footer' />
-        <Button label="Book Consultation" />
+        <ButtonWhite label="Get in Contact" idButton="footer" />
+        <Button label="Book Consultation"  onClick={toggleModal} />
       </div>
+      {isModalOpen && <Modal closeModal={toggleModal} />}
     </section>
   );
 };
