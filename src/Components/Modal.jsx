@@ -3,9 +3,11 @@ import { close } from "../assets/icons";
 const Modal = ({ closeModal }) => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-white p-6 rounded-lg max-w-md w-full">
-        <div className="flex justify-between">
-          <h2 className="text-2xl font-bold mb-4">Consultation Form</h2>
+      <div className="bg-white p-10 rounded-3xl max-w-md w-full">
+        <div className="flex justify-between content-center mb-6 ">
+          <h2 className="text-2xl font-bold font-quicksand text-green-950 ">
+            Consultation Form
+          </h2>
           <button onClick={closeModal}>
             <img src={close} alt="close button" className="h-4" />
           </button>
@@ -14,10 +16,10 @@ const Modal = ({ closeModal }) => {
         <form>
           <div className="mb-4">
             <label
-              className="block text-gray-700 text-sm font-bold mb-2"
+              className="block text-gray-700 text-base font-bold mb-2 font-nunito"
               htmlFor="name"
             >
-              Name
+              Name:
             </label>
             <input
               type="text"
@@ -29,10 +31,10 @@ const Modal = ({ closeModal }) => {
           </div>
           <div className="mb-4">
             <label
-              className="block text-gray-700 text-sm font-bold mb-2"
+              className="block text-gray-700 text-base font-bold mb-2 font-nunito"
               htmlFor="email"
             >
-              Email
+              Email:
             </label>
             <input
               type="email"
@@ -44,15 +46,32 @@ const Modal = ({ closeModal }) => {
           </div>
           <div className="mb-4">
             <label
-              className="block text-gray-700 text-sm font-bold mb-2"
+              className="block text-gray-700 font-nunito font-bold mb-2 text-base"
+              htmlFor="phone"
+            >
+              Phone:
+            </label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              required
+            />
+          </div>
+
+          <div className="mb-4">
+            <label
+              className="block text-gray-700 text-base font-bold mb-2 font-nunito"
               htmlFor="message"
             >
-              Message
+              Message:
             </label>
             <textarea
               id="message"
               name="message"
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 
+              leading-tight focus:outline-none focus:shadow-outline resize-none"
               required
             />
           </div>
