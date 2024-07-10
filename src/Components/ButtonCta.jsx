@@ -12,8 +12,8 @@ const ButtonWhite = ({ label, idButton }) => {
       <button
         onClick={handleClick}
         type="button"
-        className={`py-2 px-8 border border-none font-quicksand hover:underline
-           text-green-500 font-bold text-lg  `}
+        className={`py-2 px-8 border rounded-full font-quicksand bg-green-700
+       text-white font-semibold text-lg hover:bg-green-600 transition-all  `}
       >
         {label}
       </button>
