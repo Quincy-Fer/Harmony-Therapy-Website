@@ -9,7 +9,7 @@ const Therapies = () => {
   const handlePrevClick = () => {
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollBy({
-        left: -850, // Adjust the scroll distance as needed
+        left: -500, // Adjust the scroll distance as needed
         behavior: "smooth",
       });
     }
@@ -19,20 +19,20 @@ const Therapies = () => {
   const handleNextClick = () => {
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollBy({
-        left: 850, // Adjust the scroll distance as needed
+        left: 500, // Adjust the scroll distance as needed
         behavior: "smooth",
       });
     }
   };
 
   return (
-    <section className="max-w-[1440px] mx-auto pt-20" id="therapies">
-      <div className="flex flex-col md:flex-row justify-between ">
+    <section className="max-w-[1440px] mx-auto md:p-4 lg:p-10" id="therapies">
+      <div className="flex  justify-between p-4 ">
         
         {/* SVG DIV */}
-        <div className="flex gap-10 mt-32 ">
+        <div className="flex  gap-10 lg:mt-32 ">
           <p
-            className="font-nunito text-base text-gray-500 tracking-wider leading-loose 
+            className="hidden lg:block font-nunito text-base text-gray-500 tracking-wider leading-loose 
           mt-12 italic"
           >
             Click to see more Therapies
@@ -78,9 +78,9 @@ const Therapies = () => {
             </svg>
           </div>
         </div>
-        <div className="flex flex-col ">
+        <div className="flex flex-col ml-6 ">
           <h2
-            className="text-stone-700 text-[60px] max-w-[720px] font-bold font-quicksand
+            className="text-stone-700 md:text-[44px] lg:text-[72px] lg:max-w-[780px] font-bold font-quicksand
          leading-tight tracking-tight "
           >
             Tailored Therapies for Your Needs
