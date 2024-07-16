@@ -2,18 +2,18 @@ import { about } from "../assets/images";
 
 const About = () => {
   return (
-    <section className="max-w-[1440px] pt-20  mx-auto" id="about">
-      <div className="flex gap-20">
-        <div className="flex-1 ">
+    <section className="max-w-[1440px] md:p-4 lg:p-10  mx-auto" id="about">
+      <div className=" grid lg:grid-cols-2 gap-20 ">
+        <div className="flex flex-col justify-center">
           <h2
-            className="text-stone-700 text-[60px] max-w-[600px] font-bold font-quicksand
-         leading-tight tracking-tight "
+            className="text-stone-700 md:text-[44px] lg:text-[72px] lg:max-w-[780px] font-bold font-quicksand
+         leading-tight tracking-tight text-center lg:text-left "
           >
             Our Mission and Values
           </h2>
           <p
-            className="font-nunito max-w-[600px] text-base text-gray-500 tracking-wider leading-loose 
-          mt-10 "
+            className="font-nunito p-4 lg:p-0 text-balance text-base text-gray-500 tracking-wider leading-loose 
+          mt-10  "
           >
             At Harmony, we are dedicated to providing compassionate,
             comprehensive mental health care. Our team of experienced
@@ -34,11 +34,11 @@ const About = () => {
             mental health and enhance your quality of life.
           </p>
         </div>
-        <div className="flex-1">
+        <div className="flex justify-center">
           <img
             src={about}
             alt="woman consulting a couple"
-            className="rounded-3xl  h-[700px] w-[800px] mt-4 object-cover "
+            className="rounded-3xl md:w-[700px] lg:h-[700px] lg:w-[800px] mt-4 object-cover "
           />
         </div>
       </div>
