@@ -24,8 +24,8 @@ const Testimonials = () => {
           </p>
         </div>
         {/* cards */}
-        <div className="mt-2 p-3">
-          <div className="columns-sm ml-10  ">
+        <div className="mt-2 p-5">
+          <div className=" md:columns-xs lg:columns-sm mx-auto ">
             {TESTIMONIALS.map((testimonial) => (
               <TestimonialCard
                 key={testimonial.key}
@@ -38,7 +38,7 @@ const Testimonials = () => {
           </div>
         </div>
         {/* Gradient on the bottom */}
-        <div className="absolute w-full h-20 -mt-[145px] bg-gradient-to-r from-emerald-700 via bg-green-300 to-green-700 blur-[30px] "></div>
+        
       </section>
     </>
   );
