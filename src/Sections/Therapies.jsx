@@ -9,7 +9,7 @@ const Therapies = () => {
   const handlePrevClick = () => {
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollBy({
-        left: -500, // Adjust the scroll distance as needed
+        left: -300, // Adjust the scroll distance as needed
         behavior: "smooth",
       });
     }
@@ -19,7 +19,7 @@ const Therapies = () => {
   const handleNextClick = () => {
     if (scrollContainerRef.current) {
       scrollContainerRef.current.scrollBy({
-        left: 500, // Adjust the scroll distance as needed
+        left: 300, // Adjust the scroll distance as needed
         behavior: "smooth",
       });
     }
