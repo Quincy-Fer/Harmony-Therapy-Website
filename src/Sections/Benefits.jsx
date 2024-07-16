@@ -12,7 +12,7 @@ const Benefits = () => {
           The Harmony Difference.
         </h2>
       </div>
-      <div className="grid grid-cols-4 gap-4 mt-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-10">
         {BENEFITS.map((benefit) => (
           <BenefitCard
             key={benefit.key}
