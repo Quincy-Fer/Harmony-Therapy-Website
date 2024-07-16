@@ -12,7 +12,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="flex relative max-h-screen justify-center w-full ">
+    <section className="flex relative max-h-screen justify-center w-full pt-12">
       <img
         src={heroL}
         alt="laughing psychologist with client"
