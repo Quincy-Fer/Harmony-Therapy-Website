@@ -36,7 +36,7 @@ const Team = () => {
         </p>
 
         {/* Image and Text */}
-        <div className="flex mt-10">
+        <div className="flex flex-col md:flex-row mt-10">
           <div className="flex-1  ">
             <p
               className="font-nunito max-w-[640px]  text-gray-900 tracking-wide 

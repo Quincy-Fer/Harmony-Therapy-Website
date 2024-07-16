@@ -27,7 +27,7 @@ const Therapies = () => {
 
   return (
     <section className="max-w-[1440px] mx-auto pt-20" id="therapies">
-      <div className="flex justify-between ">
+      <div className="flex flex-col md:flex-row justify-between ">
         
         {/* SVG DIV */}
         <div className="flex gap-10 mt-32 ">
