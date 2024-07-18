@@ -16,7 +16,7 @@ const Hero = () => {
       <img
         src={heroL}
         alt="laughing psychologist with client"
-        className="rounded-b-xl object-cover object-top"
+        className="rounded-b-xl lg:object-cover lg:object-top md:max-lg:mt-10 md:max-lg:aspect-[16/12]"
       />
       <div className="absolute inset-0 bg-gray-600 opacity-65 rounded-b-xl"></div>
       {/* Heading */}
