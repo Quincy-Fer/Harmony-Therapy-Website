@@ -1,17 +1,15 @@
-import { TEAM} from "../constants";
+import { TEAM } from "../constants";
 import TeamCard from "../Components/TeamCard";
 import { useState } from "react";
 
 const Team = () => {
-
-  
   const [selectedContent, setSelectedContent] = useState({
     imgURL: TEAM[0].imgURL,
     text: TEAM[0].text,
     alt: TEAM[0].alt,
   });
 
-  const handleImageClick = (content,key) => {
+  const handleImageClick = (content, key) => {
     setSelectedContent(content);
     setSelectedKey(key);
   };
@@ -19,7 +17,7 @@ const Team = () => {
   const [selectedKey, setSelectedKey] = useState(TEAM[0].key);
 
   return (
-    <section className="max-w-[1440px] mx-auto pt-20" id="team">
+    <section className="max-w-[1440px] mx-auto md:p-4 lg:p-10" id="team">
       {/* Heading Subheading */}
       <div className="flex flex-col">
         <h2
@@ -36,23 +34,16 @@ const Team = () => {
         </p>
 
         {/* Image and Text */}
-        <div className="flex flex-col md:flex-row mt-10">
+        <div className="flex flex-col lg:flex-row mt-10 ">
           <div className="flex-1  ">
             <p
               className="font-nunito max-w-[640px]  text-gray-900 tracking-wide 
-          text-balance text-lg"
+          text-balance text-lg mr-4"
             >
               {selectedContent.text}
             </p>
-
-            <p
-              className="font-nunito max-w-[640px]  text-gray-600 tracking-wide 
-          text-balance text-lg italic mt-5"
-            >
-              Click an image below to learn more about our therapists
-            </p>
           </div>
-          <div className="flex-1 ">
+          <div className="flex-1 md:mt-4 lg:mt-0 ">
             <img
               src={selectedContent.imgURL}
               alt={selectedContent.alt}
@@ -60,9 +51,15 @@ const Team = () => {
             />
           </div>
         </div>
+        <p
+          className="font-nunito max-w-[640px]  text-gray-600 tracking-wide 
+          text-balance text-lg italic mt-5"
+        >
+          Click an image below to learn more about our therapists
+        </p>
       </div>
       {/* IMAGES map */}
-      <div className="flex justify-start gap-20 mt-10 ">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
         {TEAM.slice(1).map((item) => (
           <TeamCard
             key={item.key}

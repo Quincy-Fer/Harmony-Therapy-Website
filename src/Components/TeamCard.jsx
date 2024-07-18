@@ -10,7 +10,7 @@ const TeamCard = ({ imgURL, alt, content, onClick, isSelected }) => {
         alt={alt}
         className={`${
           isSelected ? "border-green-500 border-4 " : ""
-        } h-full w-full bg-cover rounded-3xl hover:scale-110 transition-all object-center
+        } h-full w-full bg-cover rounded-3xl hover:scale-105 transition-all object-center
         `}
       />
     </div>

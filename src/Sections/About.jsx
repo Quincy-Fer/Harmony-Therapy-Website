@@ -3,7 +3,7 @@ import { about } from "../assets/images";
 const About = () => {
   return (
     <section className="max-w-[1440px] md:p-4 lg:p-10  mx-auto" id="about">
-      <div className=" grid lg:grid-cols-2 gap-20 ">
+      <div className=" grid lg:grid-cols-2 lg:gap-20 ">
         <div className="flex flex-col justify-center">
           <h2
             className="text-stone-700 md:text-[44px] lg:text-[72px] lg:max-w-[780px] font-bold font-quicksand
@@ -34,7 +34,7 @@ const About = () => {
             mental health and enhance your quality of life.
           </p>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center md:h-[400px] lg:h-0">
           <img
             src={about}
             alt="woman consulting a couple"
