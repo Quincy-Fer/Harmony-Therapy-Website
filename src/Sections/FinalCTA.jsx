@@ -14,12 +14,16 @@ const FinalCTA = () => {
     <section className="w-full mt-20 bg-green-400 mx-auto" id="contact">
       <div className="grid md:grid-cols-2">
         {/* img left */}
-        <div className=" p-10 rounded-3xl my-10">
-          <img src={cta} alt="Contact foto" className="rounded-3xl h-full object-cover" />
+        <div className=" p-10 rounded-3xl ">
+          <img
+            src={cta}
+            alt="Contact foto"
+            className="rounded-3xl h-full object-cover"
+          />
         </div>
         {/* Right col */}
-        <div className=" p-20">
-          <div className=" ">
+        <div className="p-10">
+          <div className="flex flex-col gap-2">
             <h2
               className="text-white md:text-[44px] lg:text-[72px] lg:max-w-[780px] font-bold font-quicksand
          leading-tight tracking-tight "
@@ -35,7 +39,7 @@ const FinalCTA = () => {
               initial consultation.
             </p>
 
-            <ButtonFinal label="Get Consultation Today" onClick={toggleModal} />
+            <ButtonFinal label="Get Consultation " onClick={toggleModal} />
           </div>
         </div>
       </div>

@@ -3,10 +3,10 @@ import { logoNoBG } from "../assets/images";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-white p-20 " id="footer">
-      <div className="flex  justify-between mt-2">
+    <footer className="w-full bg-white p-10 " id="footer">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 justify-items-center">
         {/* Logo & Slogan */}
-        <div className="flex flex-col ">
+        <div className=" ">
           <img src={logoNoBG} alt="Harmony Logo" className="bg-contain w-60" />
           <p
             className="font-quicksand  text-base text-green-700 tracking-wider leading-loose  font-semibold
@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
         </div>
         {/* Site Links */}
-        <div className="flex flex-col">
+        <div className="">
           <h6
             className="text-stone-800 text-lg max-w-[600px] font-bold font-quicksand
          leading-tight tracking-tight "
@@ -48,7 +48,7 @@ const Footer = () => {
           </a>
         </div>
         {/* Contact Info */}
-        <div className="flex flex-col">
+        <div className="">
           <h6
             className="text-stone-800 text-lg max-w-[600px] font-bold font-quicksand
          leading-tight tracking-tight "
