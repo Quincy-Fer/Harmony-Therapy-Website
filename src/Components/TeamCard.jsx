@@ -1,7 +1,7 @@
 const TeamCard = ({ imgURL, alt, content, onClick, isSelected }) => {
   return (
     <div
-      className="w-[300px] h-[300px] hover:cursor-pointer  rounded-3xl
+      className="md:max-lg:w-[300px] md:max-lg:h-[300px] hover:cursor-pointer  rounded-3xl
      "
       onClick={() => onClick(content)}
     >

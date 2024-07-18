@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className="max-w-[1440px] md:p-4 lg:p-10  mx-auto" id="about">
       <div className=" grid lg:grid-cols-2 lg:gap-20 ">
-        <div className="flex flex-col justify-center">
+        <div className="justify-self-center">
           <h2
             className="text-stone-700 md:text-[44px] lg:text-[72px] lg:max-w-[780px] font-bold font-quicksand
          leading-tight tracking-tight text-center lg:text-left "
@@ -13,7 +13,7 @@ const About = () => {
           </h2>
           <p
             className="font-nunito p-4 lg:p-0 text-balance text-base text-gray-500 tracking-wider leading-loose 
-          mt-10  "
+          lg:mt-10 md:max-w-[720px]  "
           >
             At Harmony, we are dedicated to providing compassionate,
             comprehensive mental health care. Our team of experienced
@@ -34,7 +34,7 @@ const About = () => {
             mental health and enhance your quality of life.
           </p>
         </div>
-        <div className="flex justify-center md:h-[400px] lg:h-0">
+        <div className="flex justify-center md:h-[400px] lg:h">
           <img
             src={about}
             alt="woman consulting a couple"

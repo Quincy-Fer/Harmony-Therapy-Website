@@ -19,7 +19,7 @@ const Team = () => {
   return (
     <section className="max-w-[1440px] mx-auto md:p-4 lg:p-10" id="team">
       {/* Heading Subheading */}
-      <div className="flex flex-col">
+      <div className="">
         <h2
           className="text-stone-700 text-[60px]  font-bold font-quicksand
          leading-tight tracking-tight "
@@ -27,15 +27,16 @@ const Team = () => {
           The Harmony Team
         </h2>
         <p
-          className="font-nunito max-w-[600px] text-base text-gray-500 tracking-wider leading-loose 
+          className="hidden lg:block font-nunito max-w-[600px] text-base text-gray-500 tracking-wider leading-loose 
           mt-5 "
+
         >
           Providing Support and Expertise for Every Step of Your Journey
         </p>
 
         {/* Image and Text */}
-        <div className="flex flex-col lg:flex-row mt-10 ">
-          <div className="flex-1  ">
+        <div className="grid lg:grid-cols-2 mt-4 lg:mt-10 ">
+          <div className="">
             <p
               className="font-nunito max-w-[640px]  text-gray-900 tracking-wide 
           text-balance text-lg mr-4"
@@ -43,7 +44,7 @@ const Team = () => {
               {selectedContent.text}
             </p>
           </div>
-          <div className="flex-1 md:mt-4 lg:mt-0 ">
+          <div className=" md:mt-4 lg:mt-0 ">
             <img
               src={selectedContent.imgURL}
               alt={selectedContent.alt}
