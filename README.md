@@ -2,11 +2,11 @@ Harmony Website For Therapy Clinic
 
 Created my second personal website about a therapy clinic! The site is fully responsive for mobile tablet and desktop. 
 
-In order to view the site : 
-1. Clone the site
-2. In the terminal type: npm run build
-3. After it is done building type: npm run preview
-4. Open http://localhost:4173/ for your viewing pleasure!
+To view the site : 
+- Clone the site
+- In the terminal type: npm run build
+- After it is done building type: npm run preview
+- Open http://localhost:4173/ for your viewing pleasure!
 
 Process used for creation:
 1. Find inspiration from web design sites such as dribble and behance choose a topic
