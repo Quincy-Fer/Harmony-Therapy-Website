@@ -14,7 +14,7 @@ import NavBar from "./Components/NavBar";
 
 const App = () => {
   return (
-    <div className="">
+    <div className="max-sm:grid max-sm:mx-auto">
       <NavBar />
       <Hero />
       <About />
