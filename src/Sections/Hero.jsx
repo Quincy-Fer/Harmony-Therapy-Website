@@ -15,11 +15,14 @@ const Hero = () => {
     <section className="">
       {/* Mobile View */}
       <div className="flex flex-col justify-items-center md:hidden p-5">
-        <h1 className="text-3xl mt-20">lalalal</h1>
+        <h1 className="text-3xl mt-24 font-quicksand font-bold text-green-950 
+          leading-tight tracking-tight max-w-[350px]">
+          Find Your Peace, Embrace Your Wellness.
+        </h1>
         <img
           src={mobileHero}
           alt="laughing girl"
-          className="md:hidden rounded-3xl"
+          className=" rounded-3xl h-80 object-cover object-center"
         />
       </div>
 
