@@ -30,7 +30,7 @@ const Therapies = () => {
       <div className="flex  justify-between p-4 ">
         
         {/* SVG DIV */}
-        <div className="flex  gap-10 lg:mt-32 ">
+        <div className="hidden md:flex  gap-10 lg:mt-32 ">
           <p
             className="hidden lg:block font-nunito text-base text-gray-500 tracking-wider leading-loose 
           mt-12 italic"
@@ -78,6 +78,7 @@ const Therapies = () => {
             </svg>
           </div>
         </div>
+        {/* right text col */}
         <div className="flex flex-col ml-6 ">
           <h2
             className="text-stone-700 md:text-[44px] lg:text-[72px] lg:max-w-[780px] font-bold font-quicksand
@@ -96,7 +97,7 @@ const Therapies = () => {
       </div>
       {/* Cards */}
       <div
-        className="flex overflow-x-auto gap-10 hide-scrollbar "
+        className="md:flex overflow-x-auto gap-10 hide-scrollbar "
         ref={scrollContainerRef}
       >
         {THERAPIES.map((therapy) => (

@@ -22,6 +22,7 @@ import therapyIndividual from "./therapy-individual.jpg";
 import therapyGroup1 from './therapy-group-2.jpg';
 import testimonialWoman3 from './testimonial-woman-3.jpg';
 import logoNoBG from './logo.png';
+import mobileHero from './mobile-hero.jpg';
 
 
 export {
@@ -49,5 +50,6 @@ export {
   therapyIndividual,
   therapyGroup1,
   testimonialWoman3,
+  mobileHero,
 
 };
