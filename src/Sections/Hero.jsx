@@ -1,5 +1,6 @@
 import Button from "../Components/Button";
 import ButtonWhite from "../Components/ButtonWhite";
+import MobileButton from "../Components/MobileButton";
 import { heroL, mobileHero } from "../assets/images";
 import { useState } from "react";
 import Modal from "../Components/Modal";
@@ -15,14 +16,26 @@ const Hero = () => {
     <section className="">
       {/* Mobile View */}
       <div className="flex flex-col justify-items-center md:hidden p-5">
-        <h1 className="text-3xl mt-24 font-quicksand font-bold text-green-950 
-          leading-tight tracking-tight max-w-[350px]">
+        <h1
+          className="text-3xl mt-24 font-quicksand font-bold text-green-950 
+          leading-tight tracking-tight max-w-[350px]"
+        >
           Find Your Peace, Embrace Your Wellness.
         </h1>
+        <p className="text-gray-500 mt-4 text-base">
+          At Harmony Therapy Clinic, we're here to support your journey towards
+          mental well-being.
+        </p>
+        <div className="grid mt-12 ">
+          <Button label="Book Consultation" onClick={toggleModal} />{" "}
+          <MobileButton label="Get in contact" idButton="footer" />
+          {isModalOpen && <Modal closeModal={toggleModal} />}
+
+        </div>
         <img
           src={mobileHero}
           alt="laughing girl"
-          className=" rounded-3xl h-80 object-cover object-center"
+          className=" rounded-3xl h-80 object-cover object-center mt-8"
         />
       </div>
 
