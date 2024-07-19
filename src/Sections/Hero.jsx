@@ -1,6 +1,6 @@
 import Button from "../Components/Button";
 import ButtonWhite from "../Components/ButtonWhite";
-import MobileButton from "../Components/MobileButton";
+
 import { heroL, mobileHero } from "../assets/images";
 import { useState } from "react";
 import Modal from "../Components/Modal";

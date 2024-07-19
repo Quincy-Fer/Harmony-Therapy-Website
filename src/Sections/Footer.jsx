@@ -4,7 +4,7 @@ import { logoNoBG } from "../assets/images";
 const Footer = () => {
   return (
     <footer className="w-full bg-white p-10 " id="footer">
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 justify-items-center">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 justify-items-center">
         {/* Logo & Slogan */}
         <div className=" ">
           <img src={logoNoBG} alt="Harmony Logo" className="bg-contain w-60" />
