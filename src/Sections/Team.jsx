@@ -21,7 +21,7 @@ const Team = () => {
       {/* Heading Subheading */}
       <div className="">
         <h2
-          className="text-stone-700 text-[60px]  font-bold font-quicksand
+          className="text-stone-700 text-3xl max-sm:mt-10 max-sm:text-center md:text-[60px]  font-bold font-quicksand
          leading-tight tracking-tight "
         >
           The Harmony Team

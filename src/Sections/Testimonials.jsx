@@ -11,7 +11,7 @@ const Testimonials = () => {
         {/* heading and paragraph */}
         <div className="flex flex-col justify-start mx-12">
           <h2
-            className="text-lime-100 text-[60px]  font-bold font-quicksand
+            className="text-lime-100 text-3xl md:text-[60px]  font-bold font-quicksand
          leading-tight tracking-tight mt-10"
           >
             What our clients say
