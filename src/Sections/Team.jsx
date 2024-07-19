@@ -48,7 +48,7 @@ const Team = () => {
             <img
               src={selectedContent.imgURL}
               alt={selectedContent.alt}
-              className="rounded-3xl object-cover object-center max-h-[400px] min-w-[460px] "
+              className="rounded-3xl object-cover object-center max-h-[400px] md:min-w-[460px] "
             />
           </div>
         </div>

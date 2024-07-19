@@ -34,11 +34,11 @@ const About = () => {
             mental health and enhance your quality of life.
           </p>
         </div>
-        <div className="flex justify-center md:h-[400px] lg:h">
+        <div className="flex justify-center md:h-[400px] ">
           <img
             src={about}
             alt="woman consulting a couple"
-            className="rounded-3xl md:w-[700px] lg:h-[700px] lg:w-[800px] mt-4 object-cover "
+            className="hidden md:block rounded-3xl md:w-[700px] lg:h-[700px] lg:w-[800px] mt-4 object-cover "
           />
         </div>
       </div>
