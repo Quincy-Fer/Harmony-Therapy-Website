@@ -30,7 +30,7 @@ const Therapies = () => {
       <div className="flex  justify-between p-4 ">
         
         {/* SVG DIV */}
-        <div className="hidden md:flex  gap-10 lg:mt-32 ">
+        <div className="hidden md:flex gap-10 lg:mt-32 ">
           <p
             className="hidden lg:block font-nunito text-base text-gray-500 tracking-wider leading-loose 
           mt-12 italic"
@@ -79,10 +79,10 @@ const Therapies = () => {
           </div>
         </div>
         {/* right text col */}
-        <div className="flex flex-col ml-6 ">
+        <div className=" md:ml-6 ">
           <h2
-            className="text-stone-700 md:text-[44px] lg:text-[72px] lg:max-w-[780px] font-bold font-quicksand
-         leading-tight tracking-tight "
+            className="text-stone-700 text-3xl md:text-[44px] lg:text-[72px] lg:max-w-[780px] font-bold font-quicksand
+         leading-tight tracking-tight  md:text-center lg:text-left  "
           >
             Tailored Therapies for Your Needs
           </h2>

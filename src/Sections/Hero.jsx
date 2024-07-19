@@ -22,11 +22,11 @@ const Hero = () => {
         >
           Find Your Peace, Embrace Your Wellness.
         </h1>
-        <p className="text-gray-500 mt-2 text-base">
+        <p className="text-gray-500 mt-10 text-base">
           We're here to support your journey towards
           mental well-being.
         </p>
-        <div className="grid mt-10">
+        <div className="grid mt-20">
           <Button label="Book Consultation" onClick={toggleModal} />{" "}
           
           {isModalOpen && <Modal closeModal={toggleModal} />}
@@ -35,7 +35,7 @@ const Hero = () => {
         <img
           src={mobileHero}
           alt="laughing girl"
-          className=" rounded-3xl h-80 object-cover object-center mt-10"
+          className=" rounded-3xl h-80 object-cover object-center mt-10 mb-5"
         />
       </div>
 
