@@ -12,12 +12,12 @@ Tools Used:
 - Programming languages: html/css/javascript
 - Library: React.js
 - Styling Framework: Tailwind CSS
-- Sitemap: Relume.io
+- Sitemap & Wireframe: Relume.io
 - Content: Chatgpt
 - Design Inspiration: behance, dribble, unsection
-- Images: pexels, pixabay, unsplash
+- Images: pexels, pixabay, unsplash, lapa ninja
 - Icons: Hero Icons
-- 
+  
 Process used for creation:
 1. Ideation: web design sites such as dribble and behance to choose
 2. Jeff Su's perfect prompt method to create a basic sitemap with chatgpt
