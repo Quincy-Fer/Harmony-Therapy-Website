@@ -3,7 +3,7 @@ const BenefitCard = ({ title, description }) => {
     <div className="flex flex-col gap-4
      bg-white border border-green-400 rounded-3xl md:p-2 lg:p-5 ">
       <div className="flex flex-row justify-center gap-4 lg:p-5">
-        <h4 className="text-green-600 self-center font-quicksand font-semibold text-[28px] mt-5 ">{title} </h4>
+        <h4 className="text-green-600 self-center font-quicksand font-semibold text-xl md:text-[28px] mt-5 ">{title} </h4>
         <div className="w-10 h-10 shrink-0 ">
           <svg
             viewBox="0 0 24 24"
@@ -21,8 +21,8 @@ const BenefitCard = ({ title, description }) => {
           </svg>
         </div>
       </div>
-      <p className="font-nunito text-lg text-gray-500 tracking-wide  
-          md:p-2 lg:p-5 text-balance">{description} </p>
+      <p className="font-nunito text-base md:text-lg text-gray-500 tracking-wide  
+          p-2 lg:p-5 text-balance">{description} </p>
     </div>
   );
 };

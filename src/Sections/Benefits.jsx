@@ -6,7 +6,7 @@ const Benefits = () => {
     <section className="max-w-[1440px] md:mt-10 lg:mt-20 mx-auto bg-gradient-to-tr from-green-600 via-emerald-400 to-green-400 rounded-3xl p-10">
       <div className="flex flex-col items-center">
         <h2
-          className="text-white md:text-[44px] lg:text-[72px] lg:max-w-[780px] font-bold font-quicksand
+          className="text-3xl text-white md:text-[44px] lg:text-[72px] lg:max-w-[780px] font-bold font-quicksand
          leading-tight tracking-tight text-center"
         >
           The Harmony Difference.
