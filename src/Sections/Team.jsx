@@ -21,7 +21,7 @@ const Team = () => {
       {/* Heading Subheading */}
       <div className="">
         <h2
-          className="text-stone-700 text-3xl max-sm:mt-10 max-sm:text-center md:text-[60px]  font-bold font-quicksand
+          className="text-stone-700 text-3xl max-sm:mt-10 max-sm:text-left max-sm:ml-4 md:text-[60px]  font-bold font-quicksand
          leading-tight tracking-tight "
         >
           The Harmony Team
@@ -38,8 +38,8 @@ const Team = () => {
         <div className="grid lg:grid-cols-2 mt-4 lg:mt-10 ">
           <div className="">
             <p
-              className="font-nunito max-w-[640px]  text-gray-900 tracking-wide 
-          text-balance text-lg mr-4"
+              className="font-nunito md:max-w-[640px]  text-gray-900 tracking-wide 
+          text-lg mr-4 max-sm:p-4 "
             >
               {selectedContent.text}
             </p>
