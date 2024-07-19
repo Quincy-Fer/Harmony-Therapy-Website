@@ -6,13 +6,13 @@ const About = () => {
       <div className=" grid lg:grid-cols-2 lg:gap-20 ">
         <div className="justify-self-center">
           <h2
-            className="text-stone-700 md:text-[44px] lg:text-[72px] lg:max-w-[780px] font-bold font-quicksand
-         leading-tight tracking-tight text-center lg:text-left "
+            className="text-stone-700 text-3xl md:text-[44px] lg:text-[72px] lg:max-w-[780px] font-bold font-quicksand
+         leading-tight tracking-tight md:text-center lg:text-left max-sm:ml-4 "
           >
             Our Mission and Values
           </h2>
           <p
-            className="font-nunito p-4 lg:p-0 text-balance text-base text-gray-500 tracking-wider leading-loose 
+            className="font-nunito p-4  md:p-4 lg:p-0 text-balance text-base text-gray-500 tracking-wider leading-loose 
           lg:mt-10 md:max-w-[720px]  "
           >
             At Harmony, we are dedicated to providing compassionate,
