@@ -97,7 +97,7 @@ const Therapies = () => {
       </div>
       {/* Cards */}
       <div
-        className="md:flex overflow-x-auto gap-10 hide-scrollbar "
+        className="max-sm:p-4 md:flex overflow-x-auto gap-10 hide-scrollbar "
         ref={scrollContainerRef}
       >
         {THERAPIES.map((therapy) => (
