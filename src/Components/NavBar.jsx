@@ -2,7 +2,7 @@ import logo from "../assets/images/logo-no-bg.png";
 import { NAV_LINKS } from "../constants";
 import Button from "./Button";
 import { useState } from "react";
-import Modal from "./Modal"; //
+import Modal from "./Modal";
 import { close, hamburger } from "../assets/icons";
 
 const NavBar = () => {
@@ -22,6 +22,7 @@ const NavBar = () => {
       className="flex items-center justify-between px-10  z-30 py-2  w-full mx-auto fixed bg-white"
       id="home"
     >
+      {/* logo */}
       <a href="/">
         <img
           src={logo}
@@ -31,6 +32,7 @@ const NavBar = () => {
           className="rounded-sm"
         />
       </a>
+      {/* links desktop */}
       <div className="hidden md:flex items-center gap-8">
         <ul className="flex gap-8">
           {NAV_LINKS.map((link) => (
@@ -44,10 +46,12 @@ const NavBar = () => {
         </ul>
         <Button label="Consultation" onClick={toggleModal} />
       </div>
+      {isModalOpen && <Modal closeModal={toggleModal} />}
+      {/* mobile */}
+
       <button className="md:hidden text-2xl" onClick={toggleMenu}>
         <img src={hamburger} alt="hamburger menu" className="w-4" />
       </button>
-      {isModalOpen && <Modal closeModal={toggleModal} />}
       {isMenuOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center z-40">
           <div className="bg-white p-8 rounded-lg w-11/12 max-w-md">
