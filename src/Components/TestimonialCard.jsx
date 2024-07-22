@@ -1,5 +1,3 @@
-import { quotes } from "../assets/icons";
-
 const TestimonialCard = ({ name, quote, imgURL, therapy }) => {
   return (
     <div className="max-w-[440px] mb-4 h-full border bg-lime-50 rounded-3xl shadow-green-900 shadow-lg break-inside-avoid">
@@ -19,8 +17,12 @@ const TestimonialCard = ({ name, quote, imgURL, therapy }) => {
         </h6>
       </div>
       <div className="p-2 ">
-        <p className="font-nunito  text-lg text-gray-500 
-           p-5 text-balance">{quote}</p>
+        <p
+          className="font-nunito  text-lg text-gray-500 
+           p-5 text-balance"
+        >
+          {quote}
+        </p>
       </div>
       <div className="flex ">
         <div className="ml-6 mb-4">
@@ -30,8 +32,12 @@ const TestimonialCard = ({ name, quote, imgURL, therapy }) => {
             className="h-16 w-16 rounded-full object-cover object-center"
           />
         </div>
-        <p className="font-quicksand  text-lg text-gray-900 font-bold 
-           p-4 text-balance">{name}</p>
+        <p
+          className="font-quicksand  text-lg text-gray-900 font-bold 
+           p-4 text-balance"
+        >
+          {name}
+        </p>
       </div>
     </div>
   );
