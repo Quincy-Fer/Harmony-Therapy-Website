@@ -87,7 +87,7 @@ const Therapies = () => {
             Tailored Therapies for Your Needs
           </h2>
           <p
-            className="font-nunito text-lg text-gray-500 tracking-wider leading-loose 
+            className="font-nunito text-base text-gray-500 tracking-wider leading-loose 
           mt-10 "
           >
             Our diverse therapy options are designed to support your mental
