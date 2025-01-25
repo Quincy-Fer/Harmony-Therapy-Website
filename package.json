@@ -1,6 +1,6 @@
-{
-  "name": "harmony",
-  "homepage": "https://quincy-fer.github.io/Harmony-Therapy-Website/",
+{ 
+  "homepage": "https://Quincy-Fer.github.io/Harmony-Therapy-Website/",
+  "name": "harmony",  
   "private": true,
   "version": "0.0.0",
   "type": "module",
