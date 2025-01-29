@@ -4,6 +4,12 @@ Created this website for a therapy clinic. The site is fully responsive for mobi
 
 View live website here ! (https://quincy-fer.github.io/Harmony-Therapy-Website/)
 
+![harmony-image github](https://github.com/user-attachments/assets/b2c29c62-287a-4ed4-a70b-179be58a2302)
+
+
+
+
+
 ### To run the website yourself:
 
 * Clone the site
