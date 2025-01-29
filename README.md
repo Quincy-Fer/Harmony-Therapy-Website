@@ -35,4 +35,4 @@ Created this website for a therapy clinic! The site is fully responsive for mobi
 8. Setup file structure in VsCode: components, sections, data, assets
 9. Use React to build UI section by section, component by component
 11. Add interactivity to site
-12. Make site responsive mobile and tablet viewports
+12. Make site responsive for mobile and tablet viewports
