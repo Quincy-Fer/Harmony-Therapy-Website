@@ -2,14 +2,14 @@
 
 Created this website for a therapy clinic! The site is fully responsive for mobile tablet and desktop. 
 
-### Run the website yourself 
+### To run the website yourself:
 
 * Clone the site
 * In the terminal type: npm run build
 * After it is done building type: npm run preview
 * Open http://localhost:4173/ for your viewing pleasure!
   
-### Tools used
+### Tools used:
 
 * Build Tool: Vite
 * Programming languages: html/css/javascript
