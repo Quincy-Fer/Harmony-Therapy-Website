@@ -1,6 +1,6 @@
 Harmony Website For Therapy Clinic
 
-Created my second personal website about a therapy clinic! The site is fully responsive for mobile tablet and desktop. 
+Created this website for a therapy clinic! The site is fully responsive for mobile tablet and desktop. 
 To view the site : 
 - Clone the site
 - In the terminal type: npm run build
