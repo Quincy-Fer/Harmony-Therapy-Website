@@ -15,12 +15,13 @@ Created this website for a therapy clinic! The site is fully responsive for mobi
 * Programming languages: html/css/javascript
 * Library: React.js
 * Styling Framework: Tailwind CSS
+* Hosting: Github Pages
 * Sitemap & Wireframe: Relume.io
 * Content: Chatgpt
 * Design Inspiration: behance, dribble, unsection
 * Images: pexels, pixabay, unsplash, lapa ninja
 * Icons: Hero Icons
-* Hosting: Github Pages
+
   
 ### Process used for creation:
 
