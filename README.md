@@ -25,7 +25,7 @@ Created this website for a therapy clinic! The site is fully responsive for mobi
   
 ### Process used for creation:
 
-1. Ideation: web design sites such as dribble and behance to choose
+1. Web design sites such as dribble and behance to get inspiration from
 2. Jeff Su's perfect prompt method to create a basic sitemap with chatgpt
 3. Relume.io to iterate over the sitemap, create a basic wireframe
 4. Chatgpt to write content for sections website
@@ -33,6 +33,6 @@ Created this website for a therapy clinic! The site is fully responsive for mobi
 6. Create design system for topography, colors, layout
 7. Collect assets  such as stock photos from pexel, unsplash, pixabay. Icons from Hero Icons
 8. Setup file structure in VsCode: components, sections, data, assets
-9. Use React to build UI section by section
+9. Use React to build UI section by section, component by component
 11. Add interactivity to site
-12. Make site responsive for tablet and mobile as well
+12. Make site responsive mobile and tablet viewports
