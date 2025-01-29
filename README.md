@@ -1,6 +1,7 @@
 ### Therapy Clinic Website
 
-Created this website for a therapy clinic! The site is fully responsive for mobile tablet and desktop. 
+Created this website for a therapy clinic. The site is fully responsive for mobile tablet and desktop. 
+View live website here ! (https://quincy-fer.github.io/Harmony-Therapy-Website/)
 
 ### To run the website yourself:
 
