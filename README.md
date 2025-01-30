@@ -17,32 +17,11 @@ View live website here ! (https://quincy-fer.github.io/Harmony-Therapy-Website/)
 ### Features:
 
 * Fully responsive design by using Tailwind’s utility classes.
+* Smooth hover effects for buttons, links and images. Sticky navigation and smooth scrolling
 * React components: modular buidling blocks to create the UI piece by piece
 * React props for passing data to components it then renders.
-* React hooks:
-
-1.useState  update the UI based on state and add interactivity.
-2.useRef manipulate DOM elements to create slider effect.
-
-Modern Landing Page – A welcoming homepage with an introduction to the clinic, a call-to-action, and an inviting design.
-About Us Section – A dedicated section explaining the clinic’s mission, values, and team.
-Services Offered – A structured layout displaying different therapy services, such as counseling, mental health support, and specialized treatments.
-Meet the Therapists – A team section with therapist profiles, specialties, and credentials.
-Appointment Booking System – A user-friendly form to schedule therapy sessions, integrated with email or an API.
-Client Testimonials – A section featuring patient success stories and feedback in a carousel format.
-FAQs Section – A Tailwind-styled accordion answering common questions about therapy and services.
-Blog Section (Optional) – Articles and mental health resources for clients.
-Contact Form – A functional form allowing visitors to send inquiries directly to the clinic.
-Google Maps Integration – An embedded map displaying the clinic’s location.
-
-Technical Features
-Responsive Design – Fully mobile-friendly layout using Tailwind’s utility classes.
-Dark Mode Support – A theme toggle for light and dark modes.
-Smooth Animations – Subtle animations using Tailwind’s transition utilities for a polished look.
-Optimized Performance – Fast-loading pages using React’s lazy loading and Tailwind’s lightweight design.
-Accessibility Features – Well-structured semantic HTML with high-contrast colors and keyboard navigation support.
-
-* 
+* React hook: useState  update the UI based on state and add interactivity
+* React hook: useRef manipulate DOM element to create slider effect.
   
 ### Tools used:
 
