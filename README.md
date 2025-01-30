@@ -19,9 +19,9 @@ View live website here ! (https://quincy-fer.github.io/Harmony-Therapy-Website/)
 * Fully responsive design by using Tailwind’s utility classes.
 * Smooth hover effects for buttons, links and images. Sticky navigation and smooth scrolling
 * React components: modular buidling blocks to create the UI piece by piece
-* React props for passing data to components it then renders.
-* React hook: useState  update the UI based on state and add interactivity
-* React hook: useRef manipulate DOM element to create slider effect.
+* React props for passing data to components. These components then render the data
+* React hook: useState  update the UI based on state and add interactivity.
+* React hook: useRef manipulate DOM element in order to create a slider effect.
   
 ### Tools used:
 
