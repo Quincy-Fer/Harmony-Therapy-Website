@@ -17,11 +17,13 @@ View live website here ! (https://quincy-fer.github.io/Harmony-Therapy-Website/)
 ### Features:
 
 * Fully responsive design by using Tailwind’s utility classes.
-* React specific features to create the UI such as:
-  React components: breaking down the site into smaller modular pieces to create the UI
-  React props 
-* 
-Core Features
+* React components: modular buidling blocks to create the UI piece by piece
+* React props for passing data to components it then renders.
+* React hooks:
+
+1.useState  update the UI based on state and add interactivity.
+2.useRef manipulate DOM elements to create slider effect.
+
 Modern Landing Page – A welcoming homepage with an introduction to the clinic, a call-to-action, and an inviting design.
 About Us Section – A dedicated section explaining the clinic’s mission, values, and team.
 Services Offered – A structured layout displaying different therapy services, such as counseling, mental health support, and specialized treatments.
